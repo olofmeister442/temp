@@ -13,3 +13,5 @@
 - `pip install -r requirements.txt`
 - `python manage.py runserver 0.0.0.0:80`
 # alexa-icici
+
+https://invas01.euronetworldwide.com/RechargePlansAPI_prod/RechargePlans.aspx?merchantcode=ICI&servicecode=MR&consumerno=&spcode=ART&sspcode=ARTBH
