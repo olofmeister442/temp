@@ -1,0 +1,180 @@
+{% load static %}
+<html>
+   <head>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+       <link href="{% static 'engine/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+       <script src="{% static 'engine/js/jquery.js' %}"></script>
+       <link href="{% static 'engine/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+       <link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+       <script src="{% static 'engine/js/materialize.js' %}"></script>
+   </head>
+   <body>
+
+      <div class="row">
+          <div class="col l4">
+
+          </div>
+          <div class="col l2">
+              <input id="from-data" class="datepicker" type="text">
+          </div>
+          <div class="col l2">
+              <input id="to-data" class="datepicker" type="text">
+          </div>
+          <div class="col l4">
+              <a id="submit-analytics" style="margin-top:2%;" class="waves-effect waves-light btn">Show analytics</a>
+          </div>
+
+      </div>
+
+      <div class="row">
+
+      </div>
+
+      <div class="row">
+
+      </div>
+
+      <div id="insights-div">
+          <div class="row">
+
+
+              <div class="col l3">
+
+              </div>
+              <div class="col l6">
+                 <canvas id="linegraph_insights_messages">
+
+                 </canvas>
+              </div>
+              <div class="col l3">
+                  <a id="download-report" class="waves-effect waves-light btn">Download Report</a>
+              </div>
+          </div>
+      </div>
+
+      <div id="products-div">
+      <div class="row">
+          <div class="col l3">
+
+          </div>
+          <div class="col l6">
+             <canvas id="products">
+
+             </canvas>
+          </div>
+          <div class="col l3">
+
+          </div>
+      </div>
+      </div>
+
+      <div id="platforms-div">
+      <div class="row">
+          <div class="col l3">
+
+          </div>
+          <div class="col l6">
+             <canvas id="platforms">
+
+             </canvas>
+          </div>
+          <div class="col l3">
+
+          </div>
+      </div>
+      </div>
+
+      <div id="eiin">
+      <div class="row">
+          <div class="col l3">
+
+          </div>
+          <div class="col l6">
+             <div id="entities_in_intent_chips">
+
+             </div>
+             <div id="master_in_intent">
+                <canvas id="entities_in_intent">
+
+                </canvas>
+             </div>
+          </div>
+          <div class="col l3">
+
+          </div>
+      </div>
+      </div>
+
+      <div id="iine">
+      <div class="row">
+          <div class="col l3">
+
+          </div>
+          <div class="col l6">
+             <div id="intent_in_entities_chips">
+
+             </div>
+             <div id="master_in_entities">
+                <canvas id="intent_in_entities">
+
+                </canvas>
+             </div>
+          </div>
+          <div class="col l3">
+
+          </div>
+      </div>
+      </div>
+
+      <div id="session-div">
+      <div class="row">
+          <div class="col l3">
+
+          </div>
+          <div class="col l6">
+              <canvas id="average_session_length">
+
+              </canvas>
+          </div>
+          <div class="col l3">
+
+          </div>
+      </div>
+      </div>
+
+      <div id="unique-div">
+      <div class="row">
+          <div class="col l3">
+
+          </div>
+          <div class="col l6">
+              <canvas id="unique_users">
+
+              </canvas>
+          </div>
+          <div class="col l3">
+
+          </div>
+      </div>
+      </div>
+
+        <div id="clicked-vs-typed-div">
+      <div class="row">
+          <div class="col l3">
+
+          </div>
+          <div class="col l6">
+              <canvas id="clicked-vs-typed_users">
+
+              </canvas>
+          </div>
+          <div class="col l3">
+
+          </div>
+      </div>
+      </div>
+      <script src="{% static 'engine/js/analytics.js' %}"></script>
+      <script src="{% static 'engine/js/chart.js' %}"></script>
+   </body>
+</html>
+

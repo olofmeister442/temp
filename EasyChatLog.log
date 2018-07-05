@@ -1,0 +1,686 @@
+2018-07-05 06:19:58,630 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 06:20:01,272 my_logger INFO Entered do_pre_processing
+2018-07-05 06:20:01,273 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:20:01,275 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 06:20:01,284 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 06:20:01,284 my_logger INFO Entities is : None
+2018-07-05 06:20:01,285 my_logger INFO Entered recur_entity_tree
+2018-07-05 06:20:01,285 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 06:20:01,658 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:20:01,678 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:01,802 my_logger INFO Entered create_data_stages
+2018-07-05 06:20:01,803 my_logger INFO Entered create_data_flow
+2018-07-05 06:20:04,188 my_logger INFO Entered do_pre_processing
+2018-07-05 06:20:04,189 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:20:04,193 my_logger INFO After Preprocessing: 100
+2018-07-05 06:20:04,205 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:20:04,208 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 06:20:04,208 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 06:20:04,210 my_logger INFO Value Is: 100
+2018-07-05 06:20:04,288 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:04,310 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:04,411 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:20:07,239 my_logger INFO Entered do_pre_processing
+2018-07-05 06:20:07,239 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:20:07,241 my_logger INFO After Preprocessing: 1
+2018-07-05 06:20:07,253 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:20:07,410 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:07,416 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:07,544 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:20:10,580 my_logger INFO Entered do_pre_processing
+2018-07-05 06:20:10,580 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:20:10,584 my_logger INFO After Preprocessing: 1
+2018-07-05 06:20:10,601 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:20:10,710 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:10,715 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:10,715 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 06:20:10,811 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:20:10,822 my_logger INFO Entered return_next_tree
+2018-07-05 06:20:10,822 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 06:20:10,933 my_logger INFO Entered create_data_stages
+2018-07-05 06:20:10,933 my_logger INFO Entered create_data_answer
+2018-07-05 06:20:11,067 my_logger ERROR Error create_data_answer() 'NoneType' object has no attribute 'group_of_sentences'
+2018-07-05 06:20:11,067 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:20:11,327 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:20:11,445 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:27:12,541 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 06:27:13,308 my_logger INFO Entered do_pre_processing
+2018-07-05 06:27:13,309 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:27:13,312 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 06:27:13,326 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 06:27:13,327 my_logger INFO Entities is : None
+2018-07-05 06:27:13,327 my_logger INFO Entered recur_entity_tree
+2018-07-05 06:27:13,327 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 06:27:13,776 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:24,945 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 06:28:25,796 my_logger INFO Entered do_pre_processing
+2018-07-05 06:28:25,797 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:28:25,802 my_logger INFO After Preprocessing: recharge my mobile
+2018-07-05 06:28:25,826 my_logger INFO Intent is : [<Intent: Recharge my mobile>]
+2018-07-05 06:28:25,826 my_logger INFO Entities is : None
+2018-07-05 06:28:25,826 my_logger INFO Entered recur_entity_tree
+2018-07-05 06:28:25,826 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 06:28:26,115 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:27,088 my_logger INFO Entered do_pre_processing
+2018-07-05 06:28:27,088 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:28:27,095 my_logger INFO After Preprocessing: pay bill
+2018-07-05 06:28:27,147 my_logger INFO Entered recur_entity_tree
+2018-07-05 06:28:27,152 my_logger INFO Entered recur_entities
+2018-07-05 06:28:27,152 my_logger ERROR Error from: recur_entities() 'NoneType' object has no attribute 'entity_choices'
+2018-07-05 06:28:27,300 my_logger INFO Entity Name: Credit Card
+2018-07-05 06:28:27,548 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:27,565 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:27,692 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:28,766 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 06:28:30,499 my_logger INFO Entered do_pre_processing
+2018-07-05 06:28:30,499 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:28:30,501 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 06:28:30,512 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 06:28:30,512 my_logger INFO Entities is : None
+2018-07-05 06:28:30,512 my_logger INFO Entered recur_entity_tree
+2018-07-05 06:28:30,512 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 06:28:31,051 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:34,005 my_logger INFO Entered do_pre_processing
+2018-07-05 06:28:34,005 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:28:34,007 my_logger INFO After Preprocessing: 1
+2018-07-05 06:28:34,021 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:34,137 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:34,155 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:34,270 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:34,274 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:34,381 my_logger INFO Entered create_data_stages
+2018-07-05 06:28:34,382 my_logger INFO Entered create_data_flow
+2018-07-05 06:28:37,567 my_logger INFO Entered do_pre_processing
+2018-07-05 06:28:37,568 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:28:37,570 my_logger INFO After Preprocessing: 100
+2018-07-05 06:28:37,580 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:37,582 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 06:28:37,583 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 06:28:37,585 my_logger INFO Value Is: 100
+2018-07-05 06:28:37,692 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:37,706 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:37,814 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:40,673 my_logger INFO Entered do_pre_processing
+2018-07-05 06:28:40,673 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:28:40,676 my_logger INFO After Preprocessing: 1
+2018-07-05 06:28:40,689 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:40,803 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:40,820 my_logger INFO Entered return_next_tree
+2018-07-05 06:28:40,926 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:28:41,271 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:28:41,490 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:28:41,604 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:34:24,324 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 06:34:26,014 my_logger INFO Entered do_pre_processing
+2018-07-05 06:34:26,015 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:34:26,017 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 06:34:26,028 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 06:34:26,028 my_logger INFO Entities is : None
+2018-07-05 06:34:26,028 my_logger INFO Entered recur_entity_tree
+2018-07-05 06:34:26,028 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 06:34:26,446 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:34:28,418 my_logger INFO Entered do_pre_processing
+2018-07-05 06:34:28,419 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:34:28,424 my_logger INFO After Preprocessing: 1
+2018-07-05 06:34:28,440 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:34:28,554 my_logger INFO Entered return_next_tree
+2018-07-05 06:34:28,573 my_logger INFO Entered return_next_tree
+2018-07-05 06:34:28,687 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:34:28,690 my_logger INFO Entered return_next_tree
+2018-07-05 06:34:28,798 my_logger INFO Entered create_data_stages
+2018-07-05 06:34:28,799 my_logger INFO Entered create_data_flow
+2018-07-05 06:34:30,770 my_logger INFO Entered do_pre_processing
+2018-07-05 06:34:30,770 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:34:30,773 my_logger INFO After Preprocessing: 100
+2018-07-05 06:34:30,786 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:34:30,788 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 06:34:30,789 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 06:34:30,791 my_logger INFO Value Is: 100
+2018-07-05 06:34:30,899 my_logger INFO Entered return_next_tree
+2018-07-05 06:34:30,918 my_logger INFO Entered return_next_tree
+2018-07-05 06:34:31,032 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:38,408 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 06:35:39,113 my_logger INFO Entered do_pre_processing
+2018-07-05 06:35:39,115 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:35:39,119 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 06:35:39,138 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 06:35:39,138 my_logger INFO Entities is : None
+2018-07-05 06:35:39,139 my_logger INFO Entered recur_entity_tree
+2018-07-05 06:35:39,139 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 06:35:39,524 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:41,734 my_logger INFO Entered do_pre_processing
+2018-07-05 06:35:41,735 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:35:41,740 my_logger INFO After Preprocessing: 1
+2018-07-05 06:35:41,756 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:41,865 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:41,870 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:41,976 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:41,978 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:42,110 my_logger INFO Entered create_data_stages
+2018-07-05 06:35:42,111 my_logger INFO Entered create_data_flow
+2018-07-05 06:35:44,168 my_logger INFO Entered do_pre_processing
+2018-07-05 06:35:44,169 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:35:44,171 my_logger INFO After Preprocessing: 100
+2018-07-05 06:35:44,184 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:44,186 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 06:35:44,187 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 06:35:44,188 my_logger INFO Value Is: 100
+2018-07-05 06:35:44,320 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:44,328 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:44,454 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:47,734 my_logger INFO Entered do_pre_processing
+2018-07-05 06:35:47,734 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:35:47,736 my_logger INFO After Preprocessing: 1
+2018-07-05 06:35:47,750 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:47,887 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:47,892 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:47,998 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:51,918 my_logger INFO Entered do_pre_processing
+2018-07-05 06:35:51,919 my_logger INFO Entered remove_stopwords()
+2018-07-05 06:35:51,921 my_logger INFO After Preprocessing: 1
+2018-07-05 06:35:51,933 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:52,043 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:52,054 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:52,054 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 06:35:52,165 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 06:35:52,166 my_logger INFO Entered return_next_tree
+2018-07-05 06:35:52,167 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 06:35:52,265 my_logger INFO Entered create_data_stages
+2018-07-05 06:35:52,265 my_logger INFO Entered create_data_answer
+2018-07-05 06:35:52,365 my_logger ERROR Error create_data_answer() 'NoneType' object has no attribute 'group_of_sentences'
+2018-07-05 06:35:52,365 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:35:52,569 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 06:35:52,704 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 07:08:45,677 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 07:08:47,440 my_logger INFO Entered do_pre_processing
+2018-07-05 07:08:47,441 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:08:47,443 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 07:08:47,458 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 07:08:47,458 my_logger INFO Entities is : None
+2018-07-05 07:08:47,458 my_logger INFO Entered recur_entity_tree
+2018-07-05 07:08:47,458 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 07:08:47,858 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:08:50,200 my_logger INFO Entered do_pre_processing
+2018-07-05 07:08:50,200 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:08:50,202 my_logger INFO After Preprocessing: 1
+2018-07-05 07:08:50,212 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:08:50,322 my_logger INFO Entered return_next_tree
+2018-07-05 07:08:50,337 my_logger INFO Entered return_next_tree
+2018-07-05 07:08:50,445 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:08:50,450 my_logger INFO Entered return_next_tree
+2018-07-05 07:08:50,566 my_logger INFO Entered create_data_stages
+2018-07-05 07:08:50,566 my_logger INFO Entered create_data_flow
+2018-07-05 07:08:52,657 my_logger INFO Entered do_pre_processing
+2018-07-05 07:08:52,657 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:08:52,659 my_logger INFO After Preprocessing: 100
+2018-07-05 07:08:52,670 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:08:52,672 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:08:52,672 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:08:52,674 my_logger INFO Value Is: 100
+2018-07-05 07:08:52,778 my_logger INFO Entered return_next_tree
+2018-07-05 07:08:52,814 my_logger INFO Entered return_next_tree
+2018-07-05 07:08:52,932 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:08:56,377 my_logger INFO Entered do_pre_processing
+2018-07-05 07:08:56,377 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:08:56,379 my_logger INFO After Preprocessing: 1
+2018-07-05 07:08:56,390 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:08:56,522 my_logger INFO Entered return_next_tree
+2018-07-05 07:08:56,531 my_logger INFO Entered return_next_tree
+2018-07-05 07:08:56,655 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:09:21,457 my_logger INFO Entered do_pre_processing
+2018-07-05 07:09:21,458 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:09:21,461 my_logger INFO After Preprocessing: 1
+2018-07-05 07:09:21,476 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:09:21,590 my_logger INFO Entered return_next_tree
+2018-07-05 07:09:21,609 my_logger INFO Entered return_next_tree
+2018-07-05 07:09:21,610 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:09:21,712 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:09:21,713 my_logger INFO Entered return_next_tree
+2018-07-05 07:09:21,713 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:09:21,813 my_logger INFO Entered create_data_stages
+2018-07-05 07:09:21,814 my_logger INFO Entered create_data_answer
+2018-07-05 07:09:21,957 my_logger ERROR Error create_data_answer() 'NoneType' object has no attribute 'group_of_sentences'
+2018-07-05 07:09:21,957 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 07:09:22,239 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 07:09:22,357 my_logger ERROR function: match_choices_final No response 'NoneType' object has no attribute '__getitem__'
+2018-07-05 07:46:49,088 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 07:46:50,011 my_logger INFO Entered do_pre_processing
+2018-07-05 07:46:50,012 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:46:50,014 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 07:46:50,026 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 07:46:50,026 my_logger INFO Entities is : None
+2018-07-05 07:46:50,026 my_logger INFO Entered recur_entity_tree
+2018-07-05 07:46:50,026 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 07:46:50,370 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:46:52,988 my_logger INFO Entered do_pre_processing
+2018-07-05 07:46:52,990 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:46:52,998 my_logger INFO After Preprocessing: 1
+2018-07-05 07:46:53,025 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:46:53,156 my_logger INFO Entered return_next_tree
+2018-07-05 07:46:53,186 my_logger INFO Entered return_next_tree
+2018-07-05 07:46:53,311 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:46:53,312 my_logger INFO Entered return_next_tree
+2018-07-05 07:46:53,422 my_logger INFO Entered create_data_stages
+2018-07-05 07:46:53,424 my_logger INFO Entered create_data_flow
+2018-07-05 07:46:56,151 my_logger INFO Entered do_pre_processing
+2018-07-05 07:46:56,152 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:46:56,157 my_logger INFO After Preprocessing: 100
+2018-07-05 07:46:56,174 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:46:56,178 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:46:56,178 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:46:56,180 my_logger INFO Value Is: 100
+2018-07-05 07:46:56,289 my_logger INFO Entered return_next_tree
+2018-07-05 07:46:56,296 my_logger INFO Entered return_next_tree
+2018-07-05 07:46:56,400 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:46:58,755 my_logger INFO Entered do_pre_processing
+2018-07-05 07:46:58,756 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:46:58,765 my_logger INFO After Preprocessing: 1
+2018-07-05 07:46:58,790 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:46:58,923 my_logger INFO Entered return_next_tree
+2018-07-05 07:46:58,954 my_logger INFO Entered return_next_tree
+2018-07-05 07:46:59,100 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:03,957 my_logger INFO Entered do_pre_processing
+2018-07-05 07:47:03,957 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:47:03,960 my_logger INFO After Preprocessing: 1
+2018-07-05 07:47:03,979 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:04,093 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:04,140 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:04,279 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:04,281 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:04,367 my_logger INFO Entered create_data_stages
+2018-07-05 07:47:04,368 my_logger INFO Entered create_data_flow
+2018-07-05 07:47:07,872 my_logger INFO Entered do_pre_processing
+2018-07-05 07:47:07,874 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:47:07,877 my_logger INFO After Preprocessing: less than mpin
+2018-07-05 07:47:07,892 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:07,896 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:47:07,896 my_logger INFO Inside SaveEntity
+2018-07-05 07:47:07,896 my_logger INFO Entity Type: Decision3
+2018-07-05 07:47:07,896 my_logger INFO Choice Value Less than MPIN
+2018-07-05 07:47:08,001 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:47:08,005 my_logger ERROR No matching extracter found
+2018-07-05 07:47:08,005 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:08,021 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:08,145 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:08,151 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:08,245 my_logger INFO Entered create_data_stages
+2018-07-05 07:47:08,245 my_logger INFO Entered create_data_flow
+2018-07-05 07:47:11,255 my_logger INFO Entered do_pre_processing
+2018-07-05 07:47:11,256 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:47:11,261 my_logger INFO After Preprocessing: 1234
+2018-07-05 07:47:11,279 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:11,283 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:47:11,283 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:47:11,401 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:11,534 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:11,537 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:11,670 my_logger INFO Entered create_data_stages
+2018-07-05 07:47:11,671 my_logger INFO Entered create_data_flow
+2018-07-05 07:47:29,312 my_logger INFO Entered do_pre_processing
+2018-07-05 07:47:29,312 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:47:29,315 my_logger INFO After Preprocessing: 2345
+2018-07-05 07:47:29,328 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:29,332 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:47:29,332 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:47:29,351 my_logger INFO Value Is: Verified
+2018-07-05 07:47:29,491 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:29,513 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:29,514 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:47:29,646 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:47:29,650 my_logger INFO Entered return_next_tree
+2018-07-05 07:47:29,651 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:47:29,780 my_logger INFO Entered create_data_stages
+2018-07-05 07:47:29,780 my_logger INFO Entered create_data_answer
+2018-07-05 07:47:29,916 my_logger INFO Entered recommendations
+2018-07-05 07:48:27,658 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 07:48:28,651 my_logger INFO Entered do_pre_processing
+2018-07-05 07:48:28,651 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:48:28,655 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 07:48:28,670 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 07:48:28,670 my_logger INFO Entities is : None
+2018-07-05 07:48:28,670 my_logger INFO Entered recur_entity_tree
+2018-07-05 07:48:28,670 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 07:48:29,030 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:31,109 my_logger INFO Entered do_pre_processing
+2018-07-05 07:48:31,110 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:48:31,114 my_logger INFO After Preprocessing: 1
+2018-07-05 07:48:31,125 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:31,238 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:31,257 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:31,405 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:31,419 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:31,549 my_logger INFO Entered create_data_stages
+2018-07-05 07:48:31,550 my_logger INFO Entered create_data_flow
+2018-07-05 07:48:34,404 my_logger INFO Entered do_pre_processing
+2018-07-05 07:48:34,405 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:48:34,407 my_logger INFO After Preprocessing: 123
+2018-07-05 07:48:34,420 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:34,422 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:48:34,422 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:48:34,424 my_logger INFO Value Is: 123
+2018-07-05 07:48:34,527 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:34,542 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:34,649 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:37,164 my_logger INFO Entered do_pre_processing
+2018-07-05 07:48:37,165 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:48:37,168 my_logger INFO After Preprocessing: 1
+2018-07-05 07:48:37,184 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:37,294 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:37,334 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:37,483 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:41,465 my_logger INFO Entered do_pre_processing
+2018-07-05 07:48:41,465 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:48:41,469 my_logger INFO After Preprocessing: 1
+2018-07-05 07:48:41,486 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:41,594 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:41,615 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:41,750 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:41,752 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:41,872 my_logger INFO Entered create_data_stages
+2018-07-05 07:48:41,873 my_logger INFO Entered create_data_flow
+2018-07-05 07:48:44,611 my_logger INFO Entered do_pre_processing
+2018-07-05 07:48:44,611 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:48:44,616 my_logger INFO After Preprocessing: less than mpin
+2018-07-05 07:48:44,632 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:44,650 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:48:44,651 my_logger INFO Inside SaveEntity
+2018-07-05 07:48:44,651 my_logger INFO Entity Type: Decision3
+2018-07-05 07:48:44,652 my_logger INFO Choice Value Less than MPIN
+2018-07-05 07:48:44,783 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:48:44,787 my_logger ERROR No matching extracter found
+2018-07-05 07:48:44,788 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:44,807 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:44,928 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:44,929 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:45,061 my_logger INFO Entered create_data_stages
+2018-07-05 07:48:45,062 my_logger INFO Entered create_data_flow
+2018-07-05 07:48:48,465 my_logger INFO Entered do_pre_processing
+2018-07-05 07:48:48,466 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:48:48,468 my_logger INFO After Preprocessing: 2345
+2018-07-05 07:48:48,484 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:48,486 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:48:48,486 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:48:48,504 my_logger INFO Value Is: Verified
+2018-07-05 07:48:48,682 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:48,726 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:48,727 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:48:48,828 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:48:48,831 my_logger INFO Entered return_next_tree
+2018-07-05 07:48:48,831 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:48:48,928 my_logger INFO Entered create_data_stages
+2018-07-05 07:48:48,928 my_logger INFO Entered create_data_answer
+2018-07-05 07:48:49,059 my_logger INFO Entered recommendations
+2018-07-05 07:49:19,763 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 07:49:20,696 my_logger INFO Entered do_pre_processing
+2018-07-05 07:49:20,697 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:49:20,700 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 07:49:20,717 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 07:49:20,717 my_logger INFO Entities is : None
+2018-07-05 07:49:20,717 my_logger INFO Entered recur_entity_tree
+2018-07-05 07:49:20,717 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 07:49:21,167 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:25,118 my_logger INFO Entered do_pre_processing
+2018-07-05 07:49:25,118 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:49:25,121 my_logger INFO After Preprocessing: 1
+2018-07-05 07:49:25,132 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:25,241 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:25,257 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:25,385 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:25,391 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:25,497 my_logger INFO Entered create_data_stages
+2018-07-05 07:49:25,497 my_logger INFO Entered create_data_flow
+2018-07-05 07:49:28,605 my_logger INFO Entered do_pre_processing
+2018-07-05 07:49:28,605 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:49:28,608 my_logger INFO After Preprocessing: 123
+2018-07-05 07:49:28,620 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:28,622 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:49:28,622 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:49:28,624 my_logger INFO Value Is: 123
+2018-07-05 07:49:28,719 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:28,735 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:28,830 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:31,153 my_logger INFO Entered do_pre_processing
+2018-07-05 07:49:31,153 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:49:31,155 my_logger INFO After Preprocessing: 1
+2018-07-05 07:49:31,166 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:31,274 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:31,293 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:31,397 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:35,881 my_logger INFO Entered do_pre_processing
+2018-07-05 07:49:35,882 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:49:35,885 my_logger INFO After Preprocessing: 1
+2018-07-05 07:49:35,899 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:36,008 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:36,026 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:36,141 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:49:36,145 my_logger INFO Entered return_next_tree
+2018-07-05 07:49:36,252 my_logger INFO Entered create_data_stages
+2018-07-05 07:49:36,253 my_logger INFO Entered create_data_flow
+2018-07-05 07:50:03,298 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 07:50:04,520 my_logger INFO Entered do_pre_processing
+2018-07-05 07:50:04,521 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:50:04,523 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 07:50:04,537 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 07:50:04,537 my_logger INFO Entities is : None
+2018-07-05 07:50:04,538 my_logger INFO Entered recur_entity_tree
+2018-07-05 07:50:04,538 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 07:50:04,958 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:07,298 my_logger INFO Entered do_pre_processing
+2018-07-05 07:50:07,298 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:50:07,304 my_logger INFO After Preprocessing: 1
+2018-07-05 07:50:07,319 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:07,432 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:07,441 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:07,565 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:07,569 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:07,687 my_logger INFO Entered create_data_stages
+2018-07-05 07:50:07,688 my_logger INFO Entered create_data_flow
+2018-07-05 07:50:10,872 my_logger INFO Entered do_pre_processing
+2018-07-05 07:50:10,873 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:50:10,876 my_logger INFO After Preprocessing: 123
+2018-07-05 07:50:10,898 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:10,901 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:50:10,901 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:50:10,904 my_logger INFO Value Is: 123
+2018-07-05 07:50:11,010 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:11,016 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:11,121 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:14,133 my_logger INFO Entered do_pre_processing
+2018-07-05 07:50:14,133 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:50:14,135 my_logger INFO After Preprocessing: 1
+2018-07-05 07:50:14,146 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:14,249 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:14,270 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:14,376 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:17,096 my_logger INFO Entered do_pre_processing
+2018-07-05 07:50:17,097 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:50:17,100 my_logger INFO After Preprocessing: 1
+2018-07-05 07:50:17,114 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:17,211 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:17,230 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:17,332 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:17,336 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:17,443 my_logger INFO Entered create_data_stages
+2018-07-05 07:50:17,443 my_logger INFO Entered create_data_flow
+2018-07-05 07:50:20,945 my_logger INFO Entered do_pre_processing
+2018-07-05 07:50:20,946 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:50:20,953 my_logger INFO After Preprocessing: less than mpin
+2018-07-05 07:50:20,966 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:20,969 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:50:20,969 my_logger INFO Inside SaveEntity
+2018-07-05 07:50:20,969 my_logger INFO Entity Type: Decision3
+2018-07-05 07:50:20,969 my_logger INFO Choice Value Less than MPIN
+2018-07-05 07:50:21,066 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:50:21,072 my_logger ERROR No matching extracter found
+2018-07-05 07:50:21,073 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:21,098 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:21,243 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:21,249 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:21,388 my_logger INFO Entered create_data_stages
+2018-07-05 07:50:21,388 my_logger INFO Entered create_data_flow
+2018-07-05 07:50:24,249 my_logger INFO Entered do_pre_processing
+2018-07-05 07:50:24,249 my_logger INFO Entered remove_stopwords()
+2018-07-05 07:50:24,252 my_logger INFO After Preprocessing: 2345
+2018-07-05 07:50:24,263 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:24,265 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 07:50:24,265 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 07:50:24,288 my_logger INFO Value Is: Verified
+2018-07-05 07:50:24,422 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:24,441 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:24,441 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:50:24,566 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 07:50:24,568 my_logger INFO Entered return_next_tree
+2018-07-05 07:50:24,569 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 07:50:24,665 my_logger INFO Entered create_data_stages
+2018-07-05 07:50:24,666 my_logger INFO Entered create_data_answer
+2018-07-05 07:50:24,927 my_logger INFO Entered recommendations
+2018-07-05 07:51:19,722 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 08:04:57,254 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 08:04:57,788 my_logger INFO Entered do_pre_processing
+2018-07-05 08:04:57,790 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:04:57,798 my_logger INFO After Preprocessing: show me top up plan
+2018-07-05 08:04:57,830 my_logger INFO Intent is : [<Intent: Show me top up plans>]
+2018-07-05 08:04:57,830 my_logger INFO Entities is : None
+2018-07-05 08:04:57,831 my_logger INFO Entered recur_entity_tree
+2018-07-05 08:04:57,831 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 08:04:58,364 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:00,424 my_logger INFO Entered do_pre_processing
+2018-07-05 08:05:00,424 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:05:00,426 my_logger INFO After Preprocessing: 1
+2018-07-05 08:05:00,435 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:00,540 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:00,560 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:00,661 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:00,667 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:00,784 my_logger INFO Entered create_data_stages
+2018-07-05 08:05:00,785 my_logger INFO Entered create_data_flow
+2018-07-05 08:05:02,715 my_logger INFO Entered do_pre_processing
+2018-07-05 08:05:02,716 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:05:02,720 my_logger INFO After Preprocessing: 100
+2018-07-05 08:05:02,737 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:02,739 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 08:05:02,740 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 08:05:02,742 my_logger INFO Value Is: 100
+2018-07-05 08:05:02,895 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:02,914 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:03,051 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:06,559 my_logger INFO Entered do_pre_processing
+2018-07-05 08:05:06,559 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:05:06,565 my_logger INFO After Preprocessing: 1
+2018-07-05 08:05:06,585 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:06,696 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:06,743 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:06,884 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:10,131 my_logger INFO Entered do_pre_processing
+2018-07-05 08:05:10,132 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:05:10,136 my_logger INFO After Preprocessing: 1
+2018-07-05 08:05:10,158 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:10,263 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:10,284 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:10,308 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:10,428 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:10,430 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:10,551 my_logger INFO Entered create_data_stages
+2018-07-05 08:05:10,551 my_logger INFO Entered create_data_flow
+2018-07-05 08:05:13,662 my_logger INFO Entered do_pre_processing
+2018-07-05 08:05:13,662 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:05:13,664 my_logger INFO After Preprocessing: 2345
+2018-07-05 08:05:13,675 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:13,678 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 08:05:13,678 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 08:05:13,700 my_logger INFO Value Is: Verified
+2018-07-05 08:05:13,840 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:13,861 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:13,861 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 08:05:13,984 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:05:13,991 my_logger INFO Entered return_next_tree
+2018-07-05 08:05:13,992 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 08:05:14,117 my_logger INFO Entered create_data_stages
+2018-07-05 08:05:14,117 my_logger INFO Entered create_data_answer
+2018-07-05 08:05:14,426 my_logger INFO Entered recommendations
+2018-07-05 08:57:36,370 my_logger INFO {'is_typable': 'true', 'response': u'Hello, I am HIA. Your personal assitant.', 'recommended_queries': [u"What's my account balance?", u'Recharge my mobile', u'Pay bill', u'Show me top up plans', u'Pay credit card']}
+2018-07-05 08:57:37,737 my_logger INFO Entered do_pre_processing
+2018-07-05 08:57:37,737 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:57:37,739 my_logger INFO After Preprocessing: whats my account balance
+2018-07-05 08:57:37,751 my_logger INFO Intent is : [<Intent: account balance>]
+2018-07-05 08:57:37,751 my_logger INFO Entities is : None
+2018-07-05 08:57:37,752 my_logger INFO Entered recur_entity_tree
+2018-07-05 08:57:37,752 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 08:57:38,024 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:40,257 my_logger INFO Entered do_pre_processing
+2018-07-05 08:57:40,258 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:57:40,260 my_logger INFO After Preprocessing: 1
+2018-07-05 08:57:40,274 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:40,444 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:40,490 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:40,497 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 08:57:40,613 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:40,617 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:40,618 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 08:57:40,713 my_logger INFO Entered create_data_stages
+2018-07-05 08:57:40,713 my_logger INFO Entered create_data_answer
+2018-07-05 08:57:40,930 my_logger INFO Entered recommendations
+2018-07-05 08:57:45,602 my_logger INFO Entered do_pre_processing
+2018-07-05 08:57:45,603 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:57:45,605 my_logger INFO After Preprocessing: recharge my mobile
+2018-07-05 08:57:45,617 my_logger INFO Intent is : [<Intent: Recharge my mobile>]
+2018-07-05 08:57:45,618 my_logger INFO Entities is : None
+2018-07-05 08:57:45,618 my_logger INFO Entered recur_entity_tree
+2018-07-05 08:57:45,618 my_logger ERROR Error from: recur_entity_tree() 'NoneType' object is not iterable
+2018-07-05 08:57:45,856 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:48,293 my_logger INFO Entered do_pre_processing
+2018-07-05 08:57:48,293 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:57:48,295 my_logger INFO After Preprocessing: 1
+2018-07-05 08:57:48,308 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:48,433 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:48,442 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:48,566 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:48,567 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:48,666 my_logger INFO Entered create_data_stages
+2018-07-05 08:57:48,666 my_logger INFO Entered create_data_flow
+2018-07-05 08:57:50,679 my_logger INFO Entered do_pre_processing
+2018-07-05 08:57:50,679 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:57:50,682 my_logger INFO After Preprocessing: 100
+2018-07-05 08:57:50,698 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:50,701 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 08:57:50,701 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 08:57:50,704 my_logger INFO Value Is: 100
+2018-07-05 08:57:50,833 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:50,846 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:50,966 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:50,967 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:51,066 my_logger INFO Entered create_data_stages
+2018-07-05 08:57:51,066 my_logger INFO Entered create_data_flow
+2018-07-05 08:57:53,843 my_logger INFO Entered do_pre_processing
+2018-07-05 08:57:53,843 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:57:53,847 my_logger INFO After Preprocessing: yes
+2018-07-05 08:57:53,863 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:53,865 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 08:57:53,865 my_logger INFO Inside SaveEntity
+2018-07-05 08:57:53,865 my_logger INFO Entity Type: Confirm
+2018-07-05 08:57:53,865 my_logger INFO Choice Value Yes
+2018-07-05 08:57:53,955 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 08:57:53,957 my_logger ERROR No matching extracter found
+2018-07-05 08:57:53,957 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:53,965 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:53,972 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:54,066 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:54,068 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:54,188 my_logger INFO Entered create_data_stages
+2018-07-05 08:57:54,189 my_logger INFO Entered create_data_flow
+2018-07-05 08:57:57,365 my_logger INFO Entered do_pre_processing
+2018-07-05 08:57:57,365 my_logger INFO Entered remove_stopwords()
+2018-07-05 08:57:57,368 my_logger INFO After Preprocessing: 2345
+2018-07-05 08:57:57,387 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:57,390 my_logger INFO Entered validate_choice_and_save_from_response
+2018-07-05 08:57:57,390 my_logger INFO Entered validate_data_and_save_from_response
+2018-07-05 08:57:57,412 my_logger INFO Value Is: Verified
+2018-07-05 08:57:57,545 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:57,566 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:57,567 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 08:57:57,692 my_logger INFO Entered process_any_tree_with_stages_new
+2018-07-05 08:57:57,700 my_logger INFO Entered return_next_tree
+2018-07-05 08:57:57,702 my_logger ERROR Error return_next_tree 'NoneType' object has no attribute 'entity_group'
+2018-07-05 08:57:57,833 my_logger INFO Entered create_data_stages
+2018-07-05 08:57:57,833 my_logger INFO Entered create_data_answer
+2018-07-05 08:57:58,070 my_logger INFO Entered recommendations

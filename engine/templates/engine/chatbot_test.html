@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="{% static 'engine/js/jquery.js' %}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="{% static 'engine/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<nav class="blue darken-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="/chat/chatbot_test/" class="brand-logo">AllinCall</a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/chat/passedexport">Passed Questions</a></li>
+            <li><a href="/chat/failedexport">Failed Questions</a></li>
+            <li><a href="/chat/export">All Questions</a></li>
+            <li><a href="/chat/runtests/">See Test Results</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h5><b>Click on a question to provide test data.</b>
+    
+    <span class="right" style="font-size:1.3rem;color:grey">Number of test sentences</span>
+    </h5>
+    <div class="collection">
+        {% for intent in intents %}
+        <a title="Click here to enter test data for this question" class="collection-item blue-text text-darken-4" id="{{ intent.id }}">{{ intent.intent }}<span class="badge">{{ intent.count }}</span></a>
+        {% endfor %}
+    </div>
+
+   
+
+    <script src="{% static 'engine/js/chabot_test.js' %}"></script>
+    <script src="{% static 'engine/js/materialize.js' %}"></script>
+
+</div>
+</body>
+</html>

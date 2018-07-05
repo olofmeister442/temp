@@ -1,0 +1,203 @@
+<!-- Works -->
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.iframe-set
+{
+	 position: absolute;
+	 width:100%; 
+	 height: 100%;
+}
+
+.button-custom
+{
+	border: None;
+	color: green;
+}
+
+.logout-button
+{
+	font-size: 120%;
+}
+
+.tablinks
+{
+	border: none;
+	color: black;
+	font-size: 20px;
+}
+
+.sbi_logo
+  {
+    margin-right: 1px;
+    max-width: 100% ;
+    height: auto ;
+    border-radius:12px;
+  }
+
+@media only screen and (min-width: 200px) and (max-width: 670px) {
+.sbi_logo {
+    max-width:320px;
+    max-height:56px;
+}
+}
+
+@media only screen and (min-width: 670px) and (max-width: 1023px) {
+.sbi_logo {
+    max-width:540px;
+    max-height:63px;
+}
+}
+
+@media only screen and (min-width: 1023px) and (max-width: 1800px) {
+.sbi_logo {
+    max-width:280px;
+    max-height:63px;
+}
+}
+
+@media only screen and (min-width: 1800px) and (max-width: 2500px) {
+
+.sbi_logo {
+   max-width:25px;
+   max-height:64px;
+ 
+   
+}
+}
+@media only screen and (min-width: 2500px) and (max-width: 3500px) {
+
+.sbi_logo {
+   max-width:15px;
+   max-height:64px;
+ 
+   
+}
+}
+@media only screen and (min-width: 3500px) and (max-width: 4500px) {
+
+.sbi_logo {
+   max-width:15px;
+   max-height:64px;
+ 
+   
+}
+}
+@media only screen and (min-width: 4500px) and (max-width: 5500px) {
+
+.sbi_logo {
+   max-width:15px;
+   max-height:64px;
+ 
+   
+}
+}
+@media only screen and (min-width: 5500px) and (max-width: 7500px) {
+
+.sbi_logo {
+   max-width:15px;
+   max-height:64px;
+ 
+   
+}
+}
+
+@media only screen and (min-width: 150px) and (max-width: 400px) {
+
+#search_button {
+
+  width:5%;
+
+   
+}
+#sort-relevance
+{
+   width:45%;
+   text-align:left;
+   padding: 0px 5px 5px 18px
+ 
+}
+#sort-date
+{
+width:45%;
+
+text-align:left;
+margin-left:1%;
+padding: 0px 5px 5px 18px
+
+}
+
+}
+
+.set-pin{ border:2px solid #f99d27; height:auto;   margin-top:15px; width:auto;      padding: 15px 10px;}
+h1.alexa-pin{     width: 150px;font-weight: bold;color:#f99d27;     background: #fff;    margin-top: -25px;    margin-left: 15px; }
+.inp-set-pin{    text-align: left; font-size:13px;    margin: 3.5% 0;}
+.input-pin{ text-align:left; }
+.input-pin input{ border:1.5px solid #ccc;     width: 99%;    height: 30px;     text-indent: 10px;} 
+
+
+h1.financial-services{     width: 245px;font-weight: bold;color:#f99d27;     background: #fff;    margin-top: -25px;    margin-left: 15px; }
+.finance{ text-align: left;     padding: 15px 18px;     margin-top: 10%;}
+.finance label {
+
+ padding:10px;
+
+}
+
+.select-option{ padding:10px; position:relative;} 
+.check-item{ padding:5px 0; }
+.check-item label{ font-size: 13px !important;    font-weight: bold;} 
+
+
+
+.grid-detail{ background:#f0f0f0; padding:10px; }
+.cc-card{ padding:15px 0; }
+.grid-info{ padding:15px 0; font-size:13px; text-align:left; }
+.enter-digit{ font-weight:bold; padding:10px 0; }
+.grid-box{ display:inline-block; }
+.grid-box input{width: 28px; height: 38px; border:1px solid #ccc;     box-shadow: inset 1px 0 0 1px #ccc; text-indent:7px;}
+
+.autoUpdate{ border: 1px solid #ccc;
+    background: #efefef;
+    width: 100%;
+    padding:11px 11px;
+	font-size:15px;
+	font-size: 14px;
+	margin-left:-13px;
+	}
+	
+	
+.autoUpdate input{ border:1.5px solid #ccc;     width: 19%;    height: 22px;     text-indent: 10px;  }
+
+.recharge-mobile{ margin:10px 0; }
+.recharge-mobile input:nth-child(1){ width: 38.5%;    height: 22px;     text-indent: 10px; }
+.recharge-mobile input:nth-child(2){ width: 26%;    height: 22px;     text-indent: 10px; }
+
+.tnc-text{     margin-top: 1em;
+    font-size: 13px; }
+	
+	
+	#errmsg
+{
+color: red;
+}
+
+.warning{position: absolute;
+    top: 32%;
+    left: 3%;}
+	
+.get-otp-btn{    text-align:left; margin: 5% 0; }
+
+.get-otp-btn input{/*background: #f99d27!important;*/ cursor:pointer;
+    padding: 10px 15px;
+    color: #fff;}
+	
+	.enter-otp input[type=submit]:disabled {
+    background: grey!important;
+    border-bottom: .2em solid #636363;
+    cursor: auto;
+}

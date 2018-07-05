@@ -1,0 +1,165 @@
+{% load static %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html lang="en" class="stylish-select">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" src="{% static 'engine/js/jquery.js' %}"></script>
+    <!-- <link href="{% static 'OpenAuthApp/css/style.css' %}" rel="stylesheet" type="text/css"> -->
+
+
+
+    <title>ICICI Business Dashboard</title>
+
+    <style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 5px;
+        text-align: left;    
+    }
+    </style>
+</head>
+
+<body>
+
+<div class="navbar-fixed">
+    <nav class="blue" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/chat/it_dashboard/" class="brand-logo white-text">
+          IT Dashboard
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+          {% if request.user.is_authenticated %}
+          <li>
+            <a href="/chat/logout/">Logout</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<br><br><br>
+<div class="container">
+
+  
+  <table style="width:100%;">
+    <tr style="border:1px solid black;">
+      <th>Alexa ID</th>
+      <th>Device ID</th> 
+      <th>Access Token</th>
+      <th>Query</th>
+      <th>Time</th>
+      <th>Chatbot Answer</th>
+      <th>ICICI User ID</th>
+      <th>Request Packets</th>
+      <th>Response Packets</th>
+      <th>Latency</th>
+    </tr>
+    {% for logs_obj in logs_it_objs %}
+    <tr>
+      <td>{{logs_obj.alexa_id}}</td>
+      <td>{{logs_obj.device_id}}</td> 
+      <td>{{logs_obj.access_token}}</td>
+      <td>{{logs_obj.query}}</td>
+      <td>{{logs_obj.time}}</td>
+      <td>{{logs_obj.chatbot_answer}}</td>
+      <td>{{logs_obj.icici_user_id}}</td>
+      <td>{{logs_obj.request_packets_fired}}</td>
+      <td>{{logs_obj.response_packets_fired}}</td>
+      <td>{{logs_obj.latency}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+  
+  <br>
+
+  <div class="pagination" align="center">
+      <span class="step-links">
+          {% if logs_it_objs.has_previous %}
+              <a href="?page=1">&laquo; first</a>
+              <a href="?page={{ logs_it_objs.previous_page_number }}">previous</a>
+          {% endif %}
+
+          <span class="current">
+              Page {{ logs_it_objs.number }} of {{ logs_it_objs.paginator.num_pages }}.
+          </span>
+
+          {% if logs_it_objs.has_next %}
+              <a href="?page={{ logs_it_objs.next_page_number }}">next</a>
+              <a href="?page={{ logs_it_objs.paginator.num_pages }}">last &raquo;</a>
+          {% endif %}
+      </span>
+  </div>
+
+  
+
+</div>
+
+        
+<!-- <script src="{% static 'engine/js/jquery.js' %}"></script> -->
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+
+  $('#login_btn').click(function(){
+
+    username = $('#username').val();
+    password = $('#password').val();
+
+    $.ajax({
+        url: "/chat/login_submit/",
+        type: "POST",
+        data: {
+            username: username,
+            password: password
+        },
+        success: function(response) {
+            console.log("Success fetching data!", response);
+            if(response['status']==200)
+            {
+                window.location.href = '/chat/home';
+            }
+        },
+        error: function(xhr, textstatus, errorthrown) {
+            console.log("Please report this error: "+errorthrown+xhr.status+xhr.responseText);
+        }
+    });
+
+  });
+
+  
+  function update_business_dashboard()
+  {
+    $.ajax({
+      url: "/update_dashboard/",
+      type: "POST",
+      data : {
+
+
+      },
+      success: function(data){
+        
+      }
+    });
+  }
+
+
+
+
+});
+
+
+
+</script>
+</body>
+
+</html>

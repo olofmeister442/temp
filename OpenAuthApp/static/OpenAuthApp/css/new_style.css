@@ -1,0 +1,5066 @@
+﻿html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button,
+select,
+input {
+    letter-spacing: 0;
+    word-spacing: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400
+}
+
+object {
+    display: block
+}
+
+@font-face {
+    font-family: 'icici7';
+    src: url('../Fonts/icici7.eot');
+    src: url('../Fonts/icici7.eot?#iefix') format('embedded-opentype'), url('../Fonts/icici7.woff?') format('woff'), url('../Fonts/icici7.ttf?') format('truetype'), url('../Fonts/icici7.svg?#icici7') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'icici_cr1';
+    src: url('../Fonts/icici_cr1.eot');
+    src: url('../Fonts/icici_cr1.eot?#iefix') format('embedded-opentype'), url('../Fonts/icici_cr1.woff?') format('woff'), url('../Fonts/icici_cr1.ttf?') format('truetype'), url('../Fonts/icici_cr1.svg?#icici7') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+
+
+[class$="icon-"]:before,
+[class*="icon- "]:before {
+    font-family: "icici7";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('../Fonts/Roboto-Condensed.ttf');
+    src: url('../Fonts/Roboto-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'RobotoCondensedBold';
+    src: url('../Fonts/RobotoCondensed-Bold.ttf');
+    src: url('../Fonts/RobotoCondensed-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'RobotoCondensedLight';
+    src: url('../Fonts/RobotoCondensed-Light.ttf');
+    src: url('../Fonts/RobotoCondensed-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../Fonts/Roboto-Regular.ttf');
+    src: url('../Fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../Fonts/Roboto-Thin.ttf');
+    src: url('../Fonts/Roboto-Thin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal
+}
+
+::-webkit-input-placeholder {
+    color: #666;
+    padding: 0;
+    font-size: 1em
+}
+
+:-moz-placeholder {
+    color: #666;
+    padding: 0;
+    font-size: 1em
+}
+
+::-moz-placeholder {
+    color: #666;
+    padding: 0;
+    font-size: 1em
+}
+
+:-ms-input-placeholder {
+    color: #666;
+    padding: 0;
+    font-size: 1em
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table
+}
+
+.cf:after {
+    clear: both
+}
+
+.cf {
+    * zoom: 1
+}
+
+.contact_li ul {
+    list-style: none;
+    display: inline-block
+}
+
+.contact_li ul li {
+    cursor: pointer;
+    text-align: left;
+    max-width: 4em;
+    display: inline-block;
+    border-left: .1em solid #696969;
+    border-right: .1em solid #3a3a3a;
+    font-size: 1em;
+    padding: .5em .75em
+}
+
+.contact_li span {
+    display: block
+}
+
+.contact_li ul li:first-child {
+    border-left: 0;
+    padding-left: 0
+}
+
+.contact_li ul li:last-child {
+    padding-right: 0;
+    border-right: 0
+}
+
+.loginContact_li ul {
+    list-style: none;
+    display: inline-block
+}
+
+.Contact_li ul li {
+    cursor: pointer;
+    text-align: left;
+    max-width: 4em;
+    display: inline-block;
+    border-left: .1em solid #b2b2b2;
+    border-right: .1em solid #b2b2b2;
+    font-size: 1em;
+    padding: .5em .75em
+}
+
+.loginContact_li span {
+    display: block
+}
+
+.loginContact_li ul li:first-child {
+    border-left: 0;
+    padding-left: 0
+}
+
+.loginContact_li ul li:last-child {
+    padding-right: 0;
+    border-right: 0
+}
+
+.note li {
+    padding: 0;
+    margin: 0;
+    font-size: .75em
+}
+
+.note {
+    color: #666;
+    padding: 1.25em .5em 1em .5em;
+    text-align: left
+}
+
+.notePaddingForList {
+    padding: 1.25em 1.3em 1em 1.3em
+}
+
+.note a {
+    text-decoration: none;
+    color: #c60
+}
+
+.noteText {
+    font-size: .75em
+}
+
+.noteList {
+    margin-left: 1em;
+    margin-top: .6em;
+    text-align: justify
+}
+
+.noteList li {
+    font-size: .75em;
+    padding-top: .75em
+}
+
+.noteList li:first-child {
+    padding-top: 0
+}
+
+.footerNavigator {
+    text-align: center;
+    padding-bottom: 1em
+}
+
+.footerNavigator ul {
+    list-style: none;
+    display: inline
+}
+
+.footerNavigator li {
+    font-size: .8em;
+    color: white;
+    display: inline-block;
+    padding-left: .75em;
+    padding-right: .75em;
+    border-left: .15em solid white
+}
+
+.footerNavigator li:first-child {
+    border-left: 0;
+    padding-left: .75em
+}
+
+.footerNavigator li:last-child {
+    padding-right: 0
+}
+
+.footerNavigator li a {
+    color: #ff0;
+    padding: 0;
+    text-decoration: underline
+}
+
+.mobileSubmitButton {
+    width: 100%;
+    margin-top: 1.2em;
+    font-size: 1.15em;
+    position: relative;
+    -webkit-appearence: none;
+    appearence: none
+}
+
+.mobileSubmitButtonCancel {
+    width: 100%;
+    margin-top: 1.2em;
+    font-size: 1.15em;
+    position: relative;
+    -webkit-appearence: none;
+    appearence: none
+}
+
+.mobileSubmitButtonMarginGridVerify {
+    margin-top: 1.7em!important
+}
+
+.mobileSubmitButton input,
+span.mobileSubmitButton {
+    width: 100%;
+    background: #333;
+    padding: .9em 2.5em .9em .5em;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-bottom: .2em solid #000;
+    -webkit-appearence: none;
+    appearence: none;
+    white-space: normal
+}
+
+.mobileSubmitButtonCancel input,
+span.mobileSubmitButton {
+    width: 100%;
+    background: #333;
+    padding: .9em 2.5em .9em .5em;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-bottom: .2em solid #000;
+    -webkit-appearence: none;
+    appearence: none;
+    white-space: normal
+}
+
+.mobileSubmitButton:active {
+    border-top: .2em solid rgba(0, 0, 0, 0)
+}
+
+.mobileSubmitButtonCancel:active {
+    border-top: .2em solid rgba(0, 0, 0, 0)
+}
+
+.mobileSubmitButton input:active {
+    background: #444;
+    border-bottom: 0 solid #000
+}
+
+.mobileSubmitButtonCancel input:active {
+    background: #444;
+    border-bottom: 0 solid #000
+}
+
+.mobileSubmitButton:active .rightArrow {
+    top: 51%
+}
+
+.mobileSubmitButtonCancel:active .rightArrow {
+    top: 51%
+}
+
+.mobileSubmitButton:active .animate-spin {
+    top: 51%
+}
+
+.mobileSubmitButtonCancel:active .animate-spin {
+    top: 51%
+}
+
+.iciciAmt {
+    display: block;
+    color: #333
+}
+
+.iciciAmtInline {
+    display: inline-block
+}
+
+.iciciAmt label {
+    font-size: 1.1em;
+    font-weight: 400
+}
+
+.iciciAmt label:before {
+    content: '\60';
+    font-family: "icici7"
+}
+
+.iciciAmt span {
+    font-size: 1.1em;
+    font-weight: 700
+}
+
+.iciciAmt .paise {
+    font-size: .8em;
+    font-weight: 700
+}
+
+.iciciAmt .dateText {
+    font-weight: 400
+}
+
+.trnsctnSummary>li {
+    padding: .9em 1.2em .9em 1.2em;
+    background: #fff;
+    height: 4.6em;
+    margin-top: .8em;
+    border: .1em solid #e5e5e5
+}
+
+.trnsctnSummary {
+    list-style: none
+}
+
+.trnsDate {
+    color: #666;
+    font-size: .88em;
+    font-weight: 400;
+    margin-top: .2em
+}
+
+.trnInvoice {
+    color: #333;
+    font-size: .88em;
+    font-weight: 400;
+    margin-top: .2em;
+    word-wrap: break-word
+}
+
+.txnSumRight {
+    width: 1.4em;
+    color: #FFF;
+    float: right;
+    margin-top: .4em;
+    padding-top: .65em;
+    padding-bottom: .65em;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5em
+}
+
+.accDeb {
+    background: #999
+}
+
+.accCredit {
+    background: #999
+}
+
+.txnSumLeft {
+    float: left;
+    text-align: left;
+    width: 79%
+}
+
+.robotoCondensedFont {
+    font-weight: 400!important
+}
+
+.robotoCondensedBoldFont {
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 700!important
+}
+
+.robotoCondensedLightFont {
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 300!important
+}
+
+.robotoRegularFont {
+    font-family: 'Roboto'!important;
+    font-weight: 400!important
+}
+
+.robotoRegularThinFont {
+    font-family: 'Roboto'!important;
+    font-weight: 100!important
+}
+
+BODY {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    background: #ccc
+}
+
+.row {
+    width: 100%
+}
+
+.header {
+    position: relative
+}
+
+.container,
+.jspFooterContainer {
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    min-width: 240px;
+    max-width: 480px;
+    text-align: center;
+    background: #333
+}
+
+.containerHeader {
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    min-width: 240px;
+    max-width: 480px;
+    text-align: center;
+    background: #333
+}
+
+.containerHead {
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    min-width: 240px;
+    max-width: 480px;
+    min-height: 0!important;
+    text-align: center
+}
+
+.containerLogin {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center
+}
+
+.footer {
+    background: #333;
+    padding: 1.3em 0 4em 0
+}
+
+.footerLogin {
+    background: #f1f1f1;
+    padding: .5em 0 0 0;
+    margin: 0 23px
+}
+
+.footerContainer {
+    padding-bottom: 1.6em
+}
+
+.safeBanking {
+    display: block;
+    color: #fff;
+    padding: 1.25em 2em 4em 2em;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 100
+}
+
+.bankName {
+    font-size: .75em;
+    color: #fff;
+    text-align: center;
+    padding-bottom: .5em;
+    display: block
+}
+
+.dashBoardButtonContainer {
+    cursor: pointer;
+    position: relative;
+    border-left: .5em solid
+}
+
+.dashBoardButtonContainerOffer {
+    cursor: pointer;
+    position: relative;
+    border-left: .5em solid
+}
+
+.iciciInputTag {
+    width: 100%;
+    resize: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 1.5em;
+    outline: 0;
+    color: black;
+    font-size: 1em;
+    border: 0;
+    -webkit-appearence: none
+}
+
+select {
+    font-weight: 400;
+    outline: 0;
+    font-size: 1.15em;
+    width: 100%;
+    background: #fff;
+    -webkit-appearance: none;
+    padding: .9em 0 .9em 0;
+    color: #666
+}
+
+.selectContainer {
+    outline: 0;
+    color: #737373;
+    margin-top: 1.25em;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.inputTypeContainer {
+    position: relative;
+    border: 1px solid;
+    padding-left: .6em;
+    background-color: #fff;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    display: block
+}
+
+.inputTypeContainerAmountPadding {
+    padding-left: 1.6em
+}
+
+.inputTypeContainerDatePadding {
+    padding-left: 3em
+}
+
+.inputTypeContainerPhoneNumberPadding {
+    padding-left: 2.6em
+}
+
+.dashBoardNextArrow {
+    pointer-events: none;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+    right: .7em;
+    font-size: 1.5em;
+    color: #666
+}
+
+*+html .dashBoardNextArrow {
+    line-height: normal
+}
+
+.dashBoardSpinIcon,
+.dashboardSpinIcon {
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.5em;
+    right: 1.05em;
+    font-size: 1.5em;
+    color: #666
+}
+
+.shopMallSpinIcon {
+    display: block;
+    background: url("../images/gif-load.gif");
+    width: 1.75em;
+    height: 1.75em;
+    background-color: transparent;
+    float: left;
+    background-size: cover
+}
+
+*+html .dashBoardSpinIcon {
+    line-height: normal
+}
+
+.dashBoardButton {
+    cursor: pointer;
+    border: 0;
+    border-bottom: .1em solid #d8d8d8;
+    background: 0;
+    display: block;
+    text-align: left;
+    font-size: 1.625em;
+    color: #666
+}
+
+.selectListButton {
+    cursor: pointer;
+    color: #333;
+    border: 0;
+    border-bottom: .1em solid #ccc;
+    background: 0;
+    display: block;
+    text-align: left;
+    font-size: 1.25em
+}
+
+.leftBorderColor1 {
+    border-left-color: #666
+}
+
+.leftBorderColor2 {
+    border-left-color: #999
+}
+
+input[type=text],
+input[type=password],
+input[type=submit],
+input[type=tel],
+input[type=number],
+input[type=date] {
+    appearance: button;
+    border-radius: 0;
+    -moz-appearance: button;
+    -webkit-appearance: none
+}
+
+.downArrow {
+    line-height: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    font-size: 1.25em;
+    position: absolute;
+    padding: 1em .5em 0 .5em;
+    background: #666;
+    pointer-events: none
+}
+
+*+html .downArrow {
+    line-height: normal
+}
+
+.downArrow>span {
+    display: none
+}
+
+.rightArrow {
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    right: .7em;
+    top: 25%;
+    pointer-events: none;
+    line-height: 0
+}
+
+*+html .rightArrow {
+    line-height: normal
+}
+
+.headerBackButton {
+    color: #fff;
+    font-size: 1.4em;
+    position: absolute;
+    left: .5em;
+    top: 52%;
+    margin-top: -0.55em
+}
+
+.headerBackButtonDTHConf input {
+    font-family: "icici7";
+    color: #fff;
+    background: transparent
+}
+
+.alignBackButton {
+    margin-top: -0.6em
+}
+
+.headerBackButton a {
+    text-decoration: none;
+    color: #fff
+}
+
+.headerOverlayButton,
+.headerOverlayButton1 {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.41em;
+    position: absolute;
+    right: 0;
+    top: 54%;
+    margin-top: -0.5em;
+    padding-right: .2em;
+    padding-left: .5em
+}
+
+.headerOverlayButton1 {
+    display: none
+}
+
+.animate-spin {
+    line-height: 0;
+    color: white;
+    font-size: 1em;
+    position: absolute;
+    right: .75em;
+    top: 50%;
+    margin-top: -0.55em;
+    pointer-events: none
+}
+
+*+html .animate-spin {
+    line-height: normal
+}
+
+.spin5icon-:before {
+    color: white;
+    content: '\31';
+    font-family: 'icici7'
+}
+
+.spin5iconShopMall-:before {
+    color: #000;
+    content: '\31';
+    font-family: 'icici7'
+}
+
+.bodyHeadingFundtransfer {
+    background: #fff;
+    text-align: left;
+    border-left: .5em solid #e2742c;
+    border-bottom: 1px solid #e2742c;
+    padding: 1.5em 0;
+    display: block
+}
+
+.bodyHeadingAccounts {
+    background: #fff;
+    text-align: left;
+    border-left: .5em solid #f67c2c;
+    border-bottom: 1px solid #f67c2c;
+    padding: 1.5em 0;
+    display: block
+}
+
+.bodyHeadingScheduleTransactions {
+    background: #fff;
+    text-align: left;
+    border-left: .5em solid #821f22;
+    border-bottom: 1px solid #821f22;
+    padding: 1.5em 0;
+    display: block
+}
+
+.bodyHeadingRecharge {
+    background: #fff;
+    text-align: left;
+    border-left: .5em solid #a63329;
+    border-bottom: 1px solid #a63329;
+    padding: 1.5em 0;
+    display: block
+}
+
+.bodyHeadingText {
+    font-weight: 400;
+    font-size: 1.625em;
+    color: #333;
+    padding-left: .5em;
+    display: block
+}
+
+.footerContent {
+    text-align: center;
+    padding: 0 0 1em 0
+}
+
+.footerContent ul {
+    list-style: none;
+    display: inline
+}
+
+.footerContent li {
+    font-size: .75em;
+    color: white;
+    display: inline-block;
+    padding-left: .75em;
+    padding-right: .75em;
+    border-left: .15em solid white
+}
+
+.loginFooterContent li {
+    border-left: .15em solid #999
+}
+
+.footerContent li:first-child {
+    border-left: 0;
+    padding-left: 0
+}
+
+.footerContent li:last-child {
+    padding-right: 0
+}
+
+.footerContent li a {
+    color: #666;
+    padding: 0;
+    text-decoration: underline
+}
+
+.loginFooterContent li a {
+    color: #999;
+    padding: 0;
+    text-decoration: underline
+}
+
+.firstElementRemoveMargin {
+    margin-top: 0!important
+}
+
+.header_ft {
+    background: #fff;
+    padding: 0 0 .7em 0;
+    text-align: center
+}
+
+.header_new .headerOverlayButton {
+    top: 64%
+}
+
+.body_ft {
+    overflow: hidden;
+    padding: 1.8em .75em 1.8em .75em;
+    background: #f1f1f1
+}
+
+.ftAccountSelect {
+    outline: 0;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.ftAccountSelect select {
+    padding-left: 4.75em
+}
+
+.selectOptionName {
+    padding: 1.2em 0 1.2em 0;
+    padding-left: .6em;
+    font-size: 1em;
+    color: #666;
+    position: absolute;
+    top: 0;
+    pointer-events: none
+}
+
+.nickNameSchedule,
+.BillerNameSchedule {
+    padding: 1.2em 0 1.2em 0;
+    padding-left: .6em;
+    font-size: 1em;
+    color: #666;
+    position: absolute;
+    top: 0;
+    pointer-events: none
+}
+
+.ftAccountInfo {
+    padding: .3em 1em 0 .5em;
+    text-align: left
+}
+
+.ftAccountInfoHeading {
+    font-size: .9em;
+    color: #666;
+    padding-right: .5em;
+    display: inline-block;
+    margin-top: .3em;
+    margin-bottom: .2em
+}
+
+.ftAccountInfoBal {
+    width: 100%;
+    font-size: 1em
+}
+
+.ftToAccount {
+    outline: 0;
+    color: #737373;
+    margin-top: 1.25em;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.ftToAccount select {
+    padding-left: 2.5em
+}
+
+.ftPayType {
+    font-size: 1em;
+    position: relative;
+    border-bottom-width: .2em
+}
+
+.inputTag_ft {
+    width=100%;
+    padding-bottom: 1em;
+    color: #737373
+}
+
+#FT0 {
+    border-left-color: #666
+}
+
+#FT1 {
+    border-left-color: #999
+}
+
+#FT2 {
+    border-left-color: #666
+}
+
+.ft-body {
+    background: #f1f1f1;
+    padding-bottom: 1.5em
+}
+
+.accDetBody {
+    background: #f1f1f1;
+    padding: 1.8em .8em 1.8em .8em
+}
+
+.accDetDate {
+    display: block;
+    text-align: right;
+    padding: .75em;
+    border-bottom: .1em dotted #ccc;
+    background: white;
+    margin: 0 .75em .5em .75em
+}
+
+.accDetData span {
+    color: #333;
+    font-size: 1.1em;
+    text-align: center;
+    background: white
+}
+
+.shopMallData span {
+    color: #333;
+    font-size: 1.1em;
+    text-align: center
+}
+
+.accDetDate span {
+    font-weight: 300;
+    color: #666;
+    text-align: right
+}
+
+.accDetData label {
+    display: block;
+    padding-top: 1em;
+    color: #666;
+    font-size: 1.1em;
+    text-align: center;
+    background: white;
+    font-weight: 400
+}
+
+.shopMallData label {
+    display: block;
+    padding-top: 1em;
+    color: #666;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 400
+}
+
+.amountDisp span:last-child span {
+    display: inline-block
+}
+
+.amountDisp span:last-child label {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #333;
+    font-size: 1.2em
+}
+
+.amountDisp>span>span>label {
+    padding-bottom: 0
+}
+
+.accDetTxnBody {
+    overflow: hidden;
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1
+}
+
+.accDetTxnHeading {
+    color: #333;
+    font-size: 1.1em;
+    display: block;
+    text-align: center;
+    padding: .75em .75em;
+    border-bottom: .1em dotted #ccc;
+    margin: 0 .75em
+}
+
+.accDetTxnData {
+    padding-bottom: 1.75em;
+    background: white;
+    border: .1em solid #e5e5e5
+}
+
+.accDetTxnInfo {
+    color: #333;
+    font-size: 1.1em;
+    display: block;
+    text-align: center
+}
+
+.abel {
+    display: block;
+    padding-top: 1.25em;
+    color: #666;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center
+}
+
+.astLabel {
+    text-align: left;
+    margin-top: 2em;
+    display: block;
+    padding: 0 .55em
+}
+
+.accDetTxnLabel {
+    display: block;
+    padding-top: 1.25em;
+    color: #666;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center
+}
+
+.accDetTxnLastLabel {
+    text-align: left;
+    margin-top: 2em;
+    display: block;
+    padding: 0 .55em
+}
+
+.crdVerifyBody {
+    overflow: hidden;
+    padding: 0.1em 0;
+    background: #f1f1f1
+}
+
+.cardVerifyText {
+    padding: 0 .5em;
+    font-size: .9em;
+    text-align: justify;
+    color: #6e6e6e;
+    margin-top: 1.6em;
+    display: block
+}
+
+.enterCardDetLabel {
+    display: block;
+    font-size: 1.1em;
+    margin-top: 1.75em
+}
+
+.cardSectionLabel {
+    display: block;
+    padding-bottom: .2em;
+    font-size: 1.9em
+}
+
+.cardSectionBox {
+    width: 1.5em;
+    height: 3.75em;
+    padding: 0 .5em;
+    font-size: 1em;
+    outline: 0;
+    resize: none;
+    box-shadow: .2em .2em 0 rgba(0, 0, 0, .35) inset;
+    border: .1em solid #ccc
+}
+
+.cardEntryBoxContainer {
+    margin-top: 1.75em
+}
+
+.cardEntryBoxContainer p {
+    padding-right: 3.1em;
+    display: inline-block
+}
+
+.cardEntryBoxContainer p:last-child {
+    padding-right: 0
+}
+
+.accSelBody {
+    overflow: hidden;
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1
+}
+
+.accSelContainer select {
+    padding-left: .8em
+}
+
+.accSelContainer {
+    outline: 0;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.ftSuccesBody {
+    overflow: hidden;
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1
+}
+
+.ftSuccessMsg {
+    text-align: justify
+}
+
+.FTSuccessMsg {
+    font-size: 1.9em!important;
+    color: #262626;
+    display: block;
+    text-align: center
+}
+
+.ftSuccessMsgContContainer {
+    background: #fff;
+    border: .1em solid #ccc;
+    padding-bottom: 1.5em
+}
+
+.ok-circleicon- {
+    font-size: 6em;
+    color: #3c6;
+    display: block;
+    padding-top: .2em;
+    padding-bottom: .05em;
+    font-family: "icici7";
+    margin: auto;
+    width: 1.2em;
+    height: 1em
+}
+
+.dashBoardWelcomeTag {
+    background: url("../images/bg_black_tint.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 5.5em 1em .75em 1.5em;
+    font-size: 100%;
+    text-align: left
+}
+
+.dashBoardWelcomeTag p {
+    color: #fff;
+    line-height: 1.15em
+}
+
+.dashBoardWelcomeTag p:first-child {
+    font-weight: 100;
+    font-size: .9em
+}
+
+.personName {
+    font-weight: 300;
+    font-size: 2em;
+    width: 75%
+}
+
+.personNameTrimName {
+    word-wrap: break-word
+}
+
+.dashBoardWelcomeTag p:last-child {
+    font-weight: 400;
+    font-size: .75em
+}
+
+.dashboardMenu {
+    background: #f1f1f1
+}
+
+.dashboardMenuList1 {
+    border-left-color: #f67c2c
+}
+
+.dashboardMenuList2 {
+    border-left-color: #e2742c
+}
+
+.dashboardMenuList3 {
+    border-left-color: #c8582b
+}
+
+.dashboardMenuList4 {
+    border-left-color: #b5432a
+}
+
+.dashboardMenuList5 {
+    border-left-color: #a63329
+}
+
+.dashboardMenuList6 {
+    border-left-color: #9a2629
+}
+
+.dashboardMenuList7 {
+    border-left-color: #821f22
+}
+
+.dashboardMenuListLogout {
+    border-left-color: #103760
+}
+
+.dashboardMenuListHome {
+    border-left-color: #053c6d
+}
+
+.dashboardMenuListLogout a {
+    color: #103760!important
+}
+
+.dashBoardButtonContainer:last-child .dashBoardButton {
+    border-bottom-width: 0
+}
+
+.dashBoardButtonContainerOffer:last-child .dashBoardButton {
+    border-bottom-width: 0
+}
+
+.dashBoardActiveState {
+    background-color: #444;
+    -moz-box-shadow: inset 0 2px 2px #292929;
+    -webkit-box-shadow: inset 0 2px 2px #292929;
+    box-shadow: inset 0 2px 2px #292929
+}
+
+.colorWhite {
+    color: #fff!important
+}
+
+.bodyHomePage {
+    background: url("../images/bg_black_tint.jpg") no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.logo {
+    padding-top: 3em;
+    margin: 0 0 1.5em 0
+}
+
+.login {
+    margin: 2.6em 0 1.5em 0;
+    font-weight: 400
+}
+
+.login input[type="submit"] {
+    border-radius: 2.5em;
+    width: 5em;
+    height: 5em;
+    border: 0;
+    color: #666;
+    box-shadow: 0 .2em 0 0 #9c9c9c;
+    -webkit-box-shadow: 0 .2em 0 0 #9c9c9c;
+    font-size: 1.5em;
+    background: white;
+    cursor: pointer;
+    -webkit-appearence: none
+}
+
+.continue {
+    font-size: .8em;
+    position: relative;
+    font-weight: 400;
+    padding-bottom: 4.6em
+}
+
+.continue input[type="submit"] {
+    color: #fff;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
+    border: 0;
+    text-shadow: 0 0 .25em rgba(0, 0, 0, .4);
+    -webkit-appearence: none
+}
+
+.continue span {
+    padding: 0 .2em;
+    color: #666;
+    cursor: pointer
+}
+
+.continue span>a {
+    color: #666;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.contact_li {
+    padding: 0 1em 0 1em;
+    font-size: 1em
+}
+
+.contact_li ul li a {
+    text-decoration: none
+}
+
+.contact_li ul {
+    list-style: none;
+    display: inline-block
+}
+
+.contact_li ul li {
+    cursor: pointer;
+    text-align: left;
+    max-width: 4em;
+    float: left;
+    border-left: .1em solid #656565;
+    border-right: .1em solid #3e3e3e;
+    font-size: 1em;
+    padding: .5em .75em
+}
+
+.contact_li span {
+    display: block;
+    color: #fff
+}
+
+.contact_li ul li:first-child {
+    border-left: 0;
+    padding-left: 0
+}
+
+.contact_li ul li:last-child {
+    padding-right: 0;
+    border-right: 0
+}
+
+.loginContact_li {
+    padding: 0 1em 0 1em;
+    font-size: 1em;
+    overflow: visible
+}
+
+.loginContact_li ul li a {
+    text-decoration: none
+}
+
+.loginContact_li ul {
+    list-style: none;
+    display: inline-block
+}
+
+.loginContact_li ul li {
+    cursor: pointer;
+    text-align: center;
+    max-width: 4em;
+    float: left;
+    border-left: .1em solid #a8a8a8;
+    padding: .5em 30px
+}
+
+.loginContact_li span {
+    display: block;
+    color: #999
+}
+
+.loginContact_li ul li:first-child {
+    border-left: 0;
+    padding-left: 0
+}
+
+.loginContact_li ul li:last-child {
+    padding-right: 0;
+    border-right: 0
+}
+
+.bodyLoginPage {
+    margin: auto;
+    background: #fff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+.loginContainer {
+    padding: 0 1.5em 1em 1.5em;
+    margin: auto;
+    max-width: 480px
+}
+
+.containerLogin {
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    min-width: 240px;
+    max-width: 480px;
+    text-align: center;
+    background: #fff
+}
+
+.body-proceed {
+    width: 100%;
+    margin-top: 1.25em;
+    font-size: 1em;
+    position: relative
+}
+
+.loginProceedButton input {
+    width: 100%;
+    background: #333;
+    padding: .9em 0 .9em 1em;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-bottom: .2em solid #000
+}
+
+.loginProceedButton {
+    position: relative;
+    margin-top: 1.25em;
+    font-size: 1.15em;
+    color: #000
+}
+
+.loginProceedButton:active {
+    margin-top: 1.44em
+}
+
+.loginProceedButton input:active {
+    background: #444;
+    border-bottom: 0 solid #000
+}
+
+.loginProceedButton div:last-child {
+    display: none
+}
+
+.loginUserID {
+    outline: 0;
+    width: 91.5%;
+    padding: 1.3em 4.5%;
+    box-shadow: .15em .15em .2em #bcbcbc inset;
+    margin-top: .75em;
+    color: #000;
+    font-size: 1em
+}
+
+.loginPassword {
+    outline: 0;
+    width: 91.5%;
+    padding: 1.3em 4.5%;
+    box-shadow: .15em .15em .2em #bcbcbc inset;
+    margin-top: .75em;
+    color: #000;
+    font-size: 1em
+}
+
+.FTOtherSelectAccountHeading {
+    background: #C33;
+    padding: 1em;
+    text-align: left;
+    color: white;
+    font-size: 1.5em
+}
+
+.FTOtherAccountSelectPageBody {
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1
+}
+
+.selectOtherAccount {
+    outline: 0;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    margin-bottom: 1.5em
+}
+
+.selectOtherAccount select {
+    padding: 0 0 0 .8em;
+    vertical-align: middle
+}
+
+.FTOtherAccountSelectProceed {
+    position: relative;
+    margin-top: .75em;
+    color: #000;
+    font-size: 1em
+}
+
+.FTOtherAccountSelectProceed div:last-child {
+    display: none
+}
+
+.FTOtherInitiateHeading {
+    background: #C33;
+    padding: 1em;
+    text-align: left;
+    color: white;
+    font-size: 1.5em
+}
+
+.FTOtherInitiateBody {
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1;
+    overflow: hidden
+}
+
+.FTOtherInitiateFrom {
+    outline: 0;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    margin: .5em 0 .2em 0
+}
+
+.FTOtherInitiateTo {
+    outline: 0;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    margin: 1.2em 0 0 0
+}
+
+.FTOtherInitiateTo select {
+    padding: 0 0 0 2.1em
+}
+
+.FTOtherInitiateFrom select {
+    padding-left: 2.8em;
+    vertical-align: middle
+}
+
+.FTOtherInitiateAccountInfo {
+    text-align: left;
+    padding: 0 1.2em
+}
+
+.FTOtherInitiateAccountInfoBal {
+    width: 100%;
+    font-size: 1em
+}
+
+.FTOtherInitiateToDetails {
+    text-align: center;
+    padding: 1em;
+    margin: 1em 0 0 0;
+    font-size: 1em;
+    background: #fff;
+    border: .1em solid #ccc
+}
+
+.FTOtherInitiateToDetails span {
+    display: block;
+    padding: .1em 0
+}
+
+.FTOtherInitiateToDetailsLabel {
+    padding-bottom: .5em;
+    color: #999
+}
+
+.FTOtherInitiateAmount {
+    padding: 0;
+    position: relative
+}
+
+.FTOtherInitiateRemarks {
+    padding: 0
+}
+
+.FTOtherInitiatePaytype {
+    outline: 0;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    margin: 1.2em 0 0 0
+}
+
+.FTOtherInitiatePaytype select {
+    padding: 0 0 0 4em;
+    vertical-align: middle
+}
+
+.FTOtherInitiatePaymentDate {
+    padding: 0
+}
+
+.FTOtherInitiatePaymentFrequency select {
+    padding: 0 0 0 4.2em;
+    vertical-align: middle
+}
+
+.FTOtherInitiatePaymentFrequency {
+    outline: 0;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    margin: 1.2em 0 0 0
+}
+
+.FTOtherInitiatePaymentNumber {
+    padding: 0
+}
+
+.FTOtherInitiateProceed {
+    position: relative;
+    color: #000;
+    font-size: 1em
+}
+
+.amountSelectOptionName {
+    padding-top: 1.1em;
+    font-size: 1em;
+    color: #666;
+    position: absolute;
+    top: 0;
+    left: .4em
+}
+
+.countryCodeSelectOptionName {
+    padding-top: 1.1em;
+    font-size: 1em;
+    color: #666;
+    position: absolute;
+    top: 0;
+    left: .6em
+}
+
+.iciciInputTagAmount {
+    width: 100%;
+    resize: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 1.5em;
+    outline: 0;
+    color: black;
+    font-size: 1em;
+    border: 0;
+    -webkit-appearence: none
+}
+
+.iciciInputTagPhoneNumber {
+    resize: none;
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    height: 1.5em;
+    outline: 0;
+    color: black;
+    font-size: 1em;
+    border: 0;
+    -webkit-appearence: none
+}
+
+.FTOtherInitiateSelectOptionName {
+    padding-left: 1.2em;
+    line-height: 4.25em;
+    font-size: .875em;
+    color: #666;
+    position: absolute;
+    top: 0
+}
+
+.FTOtherInitiateSelectOptionName>span>span>span {
+    padding-left: .5em;
+    color: #000;
+    font-size: 1em
+}
+
+.accDetBody {
+    background: #fafafa;
+    padding: 1.8em .8em 1.8em .8em
+}
+
+.accDetData {
+    background: white;
+    border: .1em solid #e5e5e5;
+    padding: 1.9em 0 1.9em 0
+}
+
+.shopMallData {
+    padding: 0 0 1.9em 0
+}
+
+.amountDisp label {
+    font-size: .82em
+}
+
+.amountDispPaisa {
+    font-size: 1em!important
+}
+
+.amountDisp span {
+    font-size: 1.4em;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    background: white
+}
+
+.PayLabel {
+    color: #666;
+    font-size: .9em
+}
+
+.FTNonAccSummaryHeading {
+    background: #C33;
+    padding: 1em;
+    text-align: left;
+    color: white;
+    font-size: 1.5em
+}
+
+.FTNonAccSummaryBody {
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1;
+    overflow: hidden
+}
+
+.FTNonAccountToDetails span {
+    color: #333;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: block;
+    text-align: center;
+    background: white
+}
+
+.FTNonAccountToDetailsLabel span {
+    padding-top: 1.75em;
+    padding-bottom: .3em;
+    color: #666;
+    font-size: .9em;
+    font-weight: 400
+}
+
+.FTNonAccTransPassword {
+    padding: 1em 0 0 0
+}
+
+.FTNonAccountProceed {
+    position: relative;
+    margin-top: 1.5em;
+    color: #000;
+    font-size: 1em
+}
+
+.FTNonAccountProceed div:last-child {
+    display: none
+}
+
+.FTOtherAccSummaryBody {
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1;
+    overflow: hidden
+}
+
+.disclaimerText {
+    padding: 0 .6em;
+    text-align: justify;
+    display: block;
+    color: #666
+}
+
+.disclaimerContainer {
+    padding: 1.5em .8em 2.5em .8em;
+    background: #f1f1f1;
+    overflow: hidden
+}
+
+.debitAccountSelect {
+    outline: 0;
+    color: #737373;
+    margin-top: 1.25em;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.fromSelectPadding {
+    padding-left: 2.75em
+}
+
+.fromACSelectPadding {
+    padding-left: 4em
+}
+
+.selectAccountPadding {
+    padding-left: .3em
+}
+
+.toSelectPadding {
+    padding-left: 1.8em
+}
+
+.ACSelectPadding {
+    padding-left: 2em
+}
+
+.operatorTypeSelect {
+    outline: 0;
+    color: #737373;
+    margin-top: 1.25em;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.operatorTypeSelectPadding {
+    padding-left: 5.5em
+}
+
+.typeOfRechargeSelect {
+    outline: 0;
+    color: #737373;
+    margin-top: 1.25em;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.typeOfRechargeSelectPadding {
+    padding-left: 6.5em
+}
+
+.mobileCircleSelect {
+    outline: 0;
+    color: #737373;
+    margin-top: 1.25em;
+    font-size: 1em;
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.mobileCircleSelectPadding {
+    padding-left: 3em
+}
+
+.payTypeSelectPadding {
+    padding-left: 4em
+}
+
+.frequencySelectPadding {
+    padding-left: 4.5em!important
+}
+
+.firstBorder {
+    border-left: .5em solid #666
+}
+
+.secondBorder {
+    border-left: .5em solid #999
+}
+
+.moreAccountSelBody {
+    padding-bottom: 1.5em;
+    background: #f1f1f1
+}
+
+.moreAccountSelect {
+    list-style: none
+}
+
+.moreAccountSelect li {
+    position: relative
+}
+
+.moreAccountSelect label {
+    background: white;
+    display: block;
+    border-bottom: .1em solid #ccc;
+    text-align: left;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 1.25em
+}
+
+.moreAccountSelect input[type=radio] {
+    position: absolute;
+    top: 0;
+    right: 1.5em;
+    height: 100%
+}
+
+.bodyHeadingOtherServices {
+    background: #fff;
+    text-align: left;
+    border-left: .5em solid #9a2629;
+    border-bottom: 1px solid #9a2629;
+    padding: 1.5em 0;
+    display: block
+}
+
+.bodyOSDisclaimer {
+    background: #f1f1f1;
+    padding: 1.5em .8em 1.5em .8em;
+    text-align: justify;
+    color: #666
+}
+
+.ContentOSDisclaimer {
+    color: #666
+}
+
+.OSDisclaimerPara1 {
+    display: block;
+    padding: .5em;
+    padding-top: 0
+}
+
+.OSDisclaimerPara2 {
+    display: block;
+    padding: 0 .5em
+}
+
+.OSDisclaimerPara3 {
+    margin-top: 2.5em;
+    display: block;
+    padding: 0 .5em
+}
+
+.bodyOSLists {
+    background: #f1f1f1;
+    padding-bottom: 2.5em;
+    text-align: left
+}
+
+.OSStopCRBody {
+    background: #f1f1f1;
+    padding: 1.8em .8em 1.8em .8em;
+    text-align: left
+}
+
+.StopCRAccountNumber {
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.StopCRAccountNumber select {
+    padding-left: 2.5em
+}
+
+.OSStopCRNext {
+    margin-top: 0
+}
+
+.mondatoryNote {
+    color: #666;
+    text-align: left;
+    font-size: 1em;
+    padding: 1em 1em 0 .5em;
+    text-align: left
+}
+
+.stopCRNoteHeading {
+    padding: .5em 0;
+    display: block;
+    font-size: .75em
+}
+
+.stopCRNoteText {
+    text-align: justify;
+    display: block;
+    display: block;
+    font-size: .75em
+}
+
+.OSChequeBookRequestBody {
+    background: #f1f1f1;
+    padding: 1.8em .8em 1.8em .8em;
+    text-align: left
+}
+
+.ChequeBookRequestAccountNumber {
+    position: relative;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.ChequeBookRequestAccountNumber select {
+    padding-left: 2.5em
+}
+
+.bodyHeadingOTP {
+    background: #c33;
+    padding: 1.5em 0 1.5em 1.2em;
+    color: #fff;
+    text-align: left;
+    display: block
+}
+
+.OTPHeadingText {
+    font-weight: 400;
+    font-size: 1.625em;
+    color: #fff
+}
+
+.OSOTPBody {
+    background: #f1f1f1;
+    padding: 1.8em .8em 1.8em .8em;
+    text-align: left;
+    color: #666;
+    position: relative
+}
+
+.OTPDiscriptionText {
+    text-align: justify;
+    display: block;
+    padding: 0;
+    padding-top: 2em
+}
+
+.EnterOTPText {
+    padding-right: .2em
+}
+
+.OTPSubmitProceed {
+    margin-top: 2em
+}
+
+.EnterOTPNumber {
+    margin-top: .5em
+}
+
+.OTPNumber {
+    padding: 1.25em 0 0 0
+}
+
+.OTPNumber p:first-child {
+    padding: 0;
+    text-align: justify
+}
+
+.OTPNumber input {
+    margin-top: .5em
+}
+
+.iciciMobileButton {
+    width: 100%;
+    background: #ccc;
+    padding: 1em;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-bottom: .2em solid #000
+}
+
+.iciciRefreshButton {
+    margin-top: .9em!important
+}
+
+.iciciRefreshButton input {
+    background: #c60;
+    border-bottom-color: #930
+}
+
+.OtherServicesOTPNote {
+    padding: 0 .55em;
+    margin-top: 1.2em
+}
+
+.OtherServicesOTPNote a {
+    text-decoration: none;
+    color: #c60
+}
+
+.OTPAlertText {
+    display: block;
+    margin-left: 3em;
+    background: #ccc;
+    padding: 1em 1em 1em 1em
+}
+
+.OTPAlertSymbol {
+    position: absolute;
+    top: 50%;
+    font-size: 1em;
+    color: #fff;
+    margin-top: -0.65em;
+    padding: 0 1em
+}
+
+.OTPAlertMsg {
+    position: relative;
+    background: #666;
+    margin: .75em 0 0 0;
+    text-align: justify;
+    height: 50%
+}
+
+.OtherServicesOTPNoteLastLabel {
+    padding-top: 1em
+}
+
+.OSSuccess {
+    background: #fff;
+    border: .1em solid #6e6e6e
+}
+
+.minus-circleicon- {
+    font-size: 6em;
+    color: red;
+    display: block;
+    padding-top: .2em;
+    padding-bottom: .05em;
+    font-family: "icici7";
+    margin: auto;
+    width: 1.2em;
+    height: 1em
+}
+
+.proceedArrowImage {
+    background: url("../images/proccedButtonArrrow.png") no-repeat center;
+    width: 1.1em;
+    height: .9em
+}
+
+.proceedArrowImage:before {
+    content: ""!important
+}
+
+.loginButtonImage input[type="submit"] {
+    background: url("../images/loginButton.png") no-repeat center;
+    width: 7.5em;
+    height: 7.7em;
+    box-shadow: none
+}
+
+.dashBoardNextArrowImage {
+    background: url("../images/right_Arrow.png") no-repeat center;
+    width: 23px;
+    height: 19px;
+    margin-top: -0.4em!important
+}
+
+.dashBoardNextArrowImage:before {
+    content: ""!important
+}
+
+.headerBackButtonImage {
+    width: 1.45em;
+    height: 1.2em;
+    background: url("../images/backButton.png") no-repeat center!important;
+    background-color: #333!important
+}
+
+.headerBackButtonImage:before {
+    content: ""!important
+}
+
+.downArrowImage {
+    width: 1.4em;
+    padding-top: .8em!important
+}
+
+.downArrowImage:before {
+    width: 1.1em;
+    height: .6em;
+    background: url("../images/downArrow.png") no-repeat center;
+    content: ""!important;
+    margin-top: .3em
+}
+
+.downArrowImageOperamini {
+    padding-top: .2em!important
+}
+
+.headerOverlayButtonImage {
+    background: url("../images/3dots.png") no-repeat center!important;
+    width: 1.25em;
+    height: 1.25em;
+    margin-top: -0.7em!important
+}
+
+.headerOverlayButtonImage:before {
+    content: ""!important
+}
+
+.scheduleButtonImage {
+    width: 1.4em;
+    display: inline!important;
+    font-size: 1em!important
+}
+
+.scheduleButtonImage:before {
+    width: 5.1em;
+    height: 5.1em;
+    background: url("../images/clock_schedule.png") no-repeat center;
+    content: ""!important
+}
+
+.errorImage {
+    width: 1.4em;
+    display: inline!important;
+    font-size: 1em!important
+}
+
+.errorImage:before {
+    width: 90px;
+    height: 88px;
+    background: url("../images/error_opera.png") no-repeat center;
+    content: ""!important;
+    padding-top: 2em
+}
+
+.successImage {
+    display: inline!important;
+    font-size: 1em!important
+}
+
+.successImage:before {
+    width: 67px;
+    height: 66px;
+    padding-top: 2em;
+    background: url("../images/tick_opera.png") no-repeat center;
+    content: ""!important
+}
+
+.warningImage {
+    background: url("../images/warning_opera.png") no-repeat center;
+    width: 1.5em;
+    height: 1.25em;
+    padding: 0 .7em
+}
+
+.warningImage:before {
+    content: ""!important
+}
+
+.cancelImage {
+    background: url("../images/cancel_opera.png") no-repeat center;
+    width: .85em;
+    height: .75em;
+    margin-top: -0.4em
+}
+
+.cancelImage:before {
+    content: ""!important
+}
+
+.downIconImage {
+    background: url("../images/accSumArrowDown.png") no-repeat center;
+    width: 1.5em;
+    height: 2.8em;
+    background-color: #fff!important;
+    padding: 0!important;
+    margin: 0!important
+}
+
+.downIconImage:before {
+    content: ""!important
+}
+
+.upIconImage {
+    background: url("../images/accSumArrowUp.png") no-repeat center;
+    width: 1.5em;
+    height: 2.8em;
+    background-color: #fff!important;
+    padding: 0!important;
+    margin: 0!important
+}
+
+.upIconImage:before {
+    content: ""!important
+}
+
+.refreshImage {
+    background: url("../images/refresh_opera.png") no-repeat center;
+    width: 1.25em;
+    height: 1.2em;
+    margin-top: -0.7em!important
+}
+
+.refreshImage:before {
+    content: ""!important
+}
+
+.searchButtonImage {
+    background: url("../images/search.png") no-repeat center;
+    width: 1em;
+    height: 1.1em;
+    margin-top: -0.55em!important
+}
+
+.searchButtonImage:before {
+    content: ""!important
+}
+
+.stopButtonImage {
+    background: url("../images/stop.png") no-repeat center;
+    width: 1.2em;
+    height: 1.2em;
+    margin-top: -0.6em!important
+}
+
+.stopButtonImage:before {
+    content: ""!important
+}
+
+.editButtonImage {
+    background: url("../images/edit.png") no-repeat center;
+    width: 1em;
+    height: .9em;
+    margin-top: -0.55em!important
+}
+
+.editButtonImage:before {
+    content: ""!important
+}
+
+.bodyHeadingBillPay {
+    background: #fff;
+    text-align: left;
+    border-left: .5em solid #b5432a;
+    border-bottom: 1px solid #b5432a;
+    padding: 1.5em 0;
+    display: block
+}
+
+.BillPayBody {
+    background: #f1f1f1;
+    padding: 1.8em .8em 1.8em .8em
+}
+
+.schedulePayFor {
+    padding: 0 .5em
+}
+
+.creditCardBody {
+    background: #f1f1f1;
+    padding: 1.8em .8em 1.8em .8em
+}
+
+.bodyHeadingCreditCard {
+    background: #fff;
+    text-align: left;
+    border-left: .5em solid #c8582b;
+    border-bottom: 1px solid #c8582b;
+    padding: 1.5em 0;
+    display: block
+}
+
+.clockicon- {
+    font-size: 1em!important;
+    color: #fc0!important;
+    display: block;
+    padding-top: .25em;
+    font-family: "icici7";
+    margin: auto;
+    width: 1.2em;
+    height: .9em
+}
+
+.clockIcon {
+    font-size: 6em!important
+}
+
+.validationBody {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    z-index: 100
+}
+
+.validationContent {
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    width: 90%;
+    background: #fff;
+    top: 20%;
+    padding: 2%;
+    font-size: 1em;
+    text-align: left
+}
+
+.errorText {
+    border-bottom: 1px solid #888;
+    color: #666;
+    padding: .5em 0 .1em 0;
+    font-size: 1.5em
+}
+
+.errorNote {
+    font-weight: 600;
+    font-size: .8em;
+    padding: 1em 0;
+    color: #666
+}
+
+.errorLists {
+    padding-left: 1.5em;
+    color: #666
+}
+
+.errorLists span {
+    color: red
+}
+
+.errorLists>span {
+    display: block
+}
+
+.dashBoardButton a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    padding: 0 2em 0 .6em;
+    padding-top: .85em;
+    padding-bottom: .85em
+}
+
+.selectListButton a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding-top: 1.30em;
+    padding-bottom: 1.30em;
+    padding-right: 3em;
+    padding-left: .625em
+}
+
+.mobileCaptionProceedButton a {
+    padding: .9em 2.5em .9em .5em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    outline: 0
+}
+
+.mobileCaptionProceedContainer {
+    width: 100%;
+    margin-top: 1.2em;
+    position: relative;
+    -webkit-appearence: none;
+    appearence: none
+}
+
+.mobileCaptionProceedButton {
+    font-size: 1.15em;
+    background: #333;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-bottom: .2em solid #000;
+    -webkit-appearence: none;
+    appearence: none;
+    display: block
+}
+
+.mobileCaptionProceedButtonRightArrow {
+    font-size: 1.2em!important
+}
+
+.mobileCaptionProceedButton:active {
+    border-bottom: 0;
+    border-top: .2em solid #f1f1f1
+}
+
+.mobileCaptionProceedButton:active+.rightArrow {
+    top: 53%
+}
+
+.mobileCaptionProceedButton:active+.animate-spin {
+    top: 53%
+}
+
+a:focus {
+    outline: 0
+}
+
+.rupeeIconSize {
+    font-size: 1em!important
+}
+
+.banner {
+    padding: 1em;
+    background: #ededed;
+    padding-bottom: 1.5em
+}
+
+.bannerHeading {
+    padding: .5em 0 0 0;
+    color: #333;
+    font-size: 1em
+}
+
+.width50percent {
+    width: 50%
+}
+
+.bannerLeft {
+    background: #ccc;
+    height: 8em;
+    float: left;
+    margin-top: .5em;
+    font-size: 1em
+}
+
+.bannerLeft span {
+    color: #666;
+    display: block;
+    font-size: 1em;
+    padding-top: .15em
+}
+
+.bannerLeft img {
+    padding-top: 2em
+}
+
+.bannerRight {
+    position: relative;
+    background: #666;
+    height: 8em;
+    float: left;
+    margin-top: .5em;
+    text-align: left;
+    font-size: 1em
+}
+
+.bannerRight span {
+    color: #fff;
+    display: block;
+    padding-right: .2em
+}
+
+.bannerRightText {
+    max-width: 7.4em;
+    padding: 2em 1em;
+    padding-left: .75em
+}
+
+.bannerSecondParra {
+    max-width: 8em
+}
+
+.bannerArrow {
+    display: inline;
+    position: absolute;
+    top: .8em;
+    right: 0;
+    font-size: 1.2em
+}
+
+
+.iciciMobileTextStyle {
+    display: block;
+    color: #666;
+    font-size: .75em;
+    margin-top: .75em;
+    text-align: left;
+    padding: 0 .8em
+}
+
+.iciciMobileBoldTextStyle {
+    display: block;
+    color: #333;
+    font-size: 1em;
+    text-align: left;
+    padding: 0 .8em
+}
+
+.marginTopPointEightem {
+    margin-top: .8em
+}
+
+.textAlignCenter {
+    text-align: center
+}
+
+.accDetAccountNumber span {
+    font-size: 1.2em
+}
+
+.removePaddingTop {
+    padding-top: 0!important
+}
+
+.symbolVerticalAlignContainer {
+    position: absolute;
+    background: grey;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%
+}
+
+.inputTypeContainer label {
+    display: none;
+    width: 100%;
+    text-align: left;
+    margin-left: -0.6em;
+    padding-left: .6em;
+    color: white;
+    padding-bottom: .5em;
+    padding-top: .5em;
+    background-color: #666
+}
+
+.show-label-for-operamini {
+    display: inline-block!important
+}
+
+.remove-padding-for-operamini {
+    padding-left: .6em
+}
+
+.accDetTxnAmountSize {
+    font-size: 1.75em
+}
+
+.accDetAccountNumber {
+    display: block;
+    color: #000
+}
+
+.OTPmobileSubmitButtonMargin {
+    margin-top: 1.9em!important
+}
+
+.iciciCancelButton {
+    margin-top: .625em!important
+}
+
+.iciciCancelButton spin5icon- {
+    dispaly: none!important
+}
+
+input[type="date"]::-webkit-input-placeholder {
+    visibility: hidden!important
+}
+
+input::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none
+}
+
+.checkBoxHide {
+    display: none
+}
+
+.checkBoxTextStyle {
+    display: inline-block;
+    padding-top: .6em;
+    padding-left: .5em
+}
+
+.checkBoxTextStyleLink {
+    display: inline-block;
+    padding-top: .6em;
+    padding-left: .2em
+}
+
+.checkBoxTextStyleLink a {
+    color: #0cf
+}
+
+.checkBoxTextStyleLink a:active {
+    color: #444
+}
+
+.checkBoxContainer {
+    margin-top: 1.2em;
+    display: inline-block
+}
+
+.checkBoxStyle {
+    width: 2.5em;
+    height: 2.5em;
+    background: #fff;
+    float: left;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em
+}
+
+.checkBoxContainerCheckedLabel {
+    background: url(../images/check_tick.png) no-repeat center;
+    background-color: #fff
+}
+
+.checkBoxErrorDisplay {
+    background: #fcc;
+    outline: #f00 1px solid
+}
+
+
+}
+@media screen and (max-width:320px) {
+    .container {
+        font-size: 85%
+    }
+}
+@media screen and (max-width:340px) and (orientation:portrait) {
+    .contact_li ul li {
+        font-size: 80%
+    }
+    
+    .bannerRight,
+    .bannerLeft {
+        font-size: .8em
+    }
+}
+@media screen and (max-width:290px) {
+    .contact_li ul li {
+        font-size: 75%
+    }
+    
+    .cardEntryBoxContainer p {
+        padding-right: 2.7em
+    }
+    
+    div.header img {
+        margin-left: 1em
+    }
+}
+@media screen and (max-width:280px) {
+    .container {
+        font-size: 80%
+    }
+    
+    .contact_li ul li {
+        font-size: 70%
+    }
+    
+    .cardEntryBoxContainer p {
+        padding-right: 2.5em
+    }
+}
+@media screen and (max-width:240px) {
+    .container {
+        font-size: 80%
+    }
+    
+    div.header img {
+        margin-left: 1em
+    }
+}
+@media screen and (max-width:240px) and (orientation:portrait) {
+    .contact_li ul li {
+        font-size: 70%
+    }
+    
+    .bannerRight,
+    .bannerLeft {
+        font-size: .7em
+    }
+    
+    div.header img {
+        margin-left: 1em
+    }
+}
+.alignLeft {
+    text-align: left
+}
+.staticHTMLContainer {
+    margin: auto;
+    min-width: 240px;
+    max-width: 480px;
+    background: #f1f1f1
+}
+.bodyWrapper {
+    padding: 1.8em .6em
+}
+.contactTime {
+    display: inline-block;
+    font-size: 3em
+}
+.customerCare {
+    display: inline-block;
+    padding-left: .625em
+}
+.customerCare span {
+    display: block
+}
+.contactNumberWrapper>a {
+    display: block;
+    text-decoration: none;
+    position: relative
+}
+.contactNumber {
+    float: left;
+    width: 93%;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #e5e5e5
+}
+.contactUsBanner {
+    padding: 0 .625em;
+    padding-bottom: 1em
+}
+.phoneNumberCont {
+    border-bottom: 1px solid #cfcfcf;
+    padding: 1em .625em .625em .625em;
+    color: #999
+}
+.phoneNumberCont span {
+    display: block;
+    font-size: 1.4em;
+    color: #333;
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 400!important
+}
+.phoneNumberCont label {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 300!important
+}
+.contactUsNRIText {
+    padding-top: 1.8em
+}
+.contactUsNRIText p {
+    font-size: .9em;
+    color: #666
+}
+.phoneIcon {
+    position: absolute;
+    display: table;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 1em auto 0;
+    font-size: 1.8em;
+    color: #0cf
+}
+.phoneIconImage {
+    background: url("../images/Call_opera.png") no-repeat center
+}
+.phoneIconImage:before {
+    content: ""!important
+}
+.contactTime {
+    display: inline-block;
+    font-size: 3em
+}
+.customerCare {
+    display: inline-block;
+    padding-left: .625em
+}
+.customerCare span {
+    display: block
+}
+.contactUsBanner {
+    padding: 0 .625em;
+    padding-bottom: 1em
+}
+.contactNumber {
+    float: left;
+    width: 93%;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #e5e5e5
+}
+.alphabets {
+    float: right;
+    font-size: 1em;
+    width: 3%
+}
+.alphabets a {
+    display: block;
+    color: #8e8e8e;
+    text-decoration: none
+}
+.contactNumberWrapper>a {
+    display: block;
+    text-decoration: none
+}
+.alphabetIndex {
+    border-bottom: 1px solid #cfcfcf;
+    padding: .9em .3em .3em .3em;
+    font-size: 2em;
+    color: #999;
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 300!important
+}
+.phoneNumberCont {
+    border-bottom: 1px solid #cfcfcf;
+    padding: 1em .625em .625em .625em;
+    color: #999;
+    position: relative
+}
+.phoneNumberCont span {
+    display: block;
+    font-size: 1.4em;
+    color: #333;
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 400!important
+}
+.phoneNumberCont label {
+    display: block;
+    font-size: 1.2em;
+    color: #333;
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 300!important
+}
+.contactNumberWrapper>div:last-child {
+    border: 0
+}
+.contactNumber {
+    width: 100%;
+    text-align: left;
+    background: #fff;
+    border: 1px solid #e5e5e5
+}
+.alphabets a {
+    display: inline-block;
+    width: 6%;
+    text-align: center
+}
+.alphabets {
+    width: 92%;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    padding: 0 4%;
+    background: #f1f1f1;
+    box-shadow: 0 0 2em rgba(0, 0, 0, 0.4)
+}
+.alphabets div {
+    margin-top: .5em;
+    margin-bottom: .5em
+}
+.addressBody {
+    display: block;
+    font-size: 1.2em;
+    color: #333
+}
+.paddingBottom2em {
+    padding-bottom: 2em
+}
+.writeToUsWrapper {
+    padding: 1.8em .6em
+}
+.writeToUsContainer {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    padding: 1.25em 0 1.625em 1em
+}
+.writeToUsContainer label {
+    font-size: .8em;
+    color: #a1a1a1
+}
+.bodyHeading {
+    color: #fff;
+    padding: 1.5em 0 1.5em 1.2em;
+    background-color: #f36f31
+}
+.bodyHeadingtext {
+    font-size: 1.6em
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0
+}
+html[xmlns] .clearfix {
+    display: block
+}
+* html .clearfix {
+    height: 1%
+}
+.footerBackground {
+    background: #333
+}
+@media screen and (max-width:400px) and (orientation:portrait) {
+    .contactUsBanner {
+        font-size: 80%
+    }
+}
+@media screen and (max-width:320px) and (orientation:portrait) {
+    .contactUsBanner {
+        font-size: 70%
+    }
+}
+.overlayContainer {
+    left: 0;
+    z-index: 100;
+    display: none;
+    width: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8)
+}
+.overlay {
+    background: #f1f1f1;
+    width: 70%;
+    float: right
+}
+.spin5icon- {
+    -moz-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear;
+    display: none
+}
+.spin5iconShopMall- {
+    -moz-animation: spin 2s infinite linear;
+    -o-animation: spin 2s infinite linear;
+    -webkit-animation: spin 2s infinite linear;
+    animation: spin 2s infinite linear
+}
+@-moz-keyframes spin {
+    0 {
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    
+    100% {
+        -moz-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+@-webkit-keyframes spin {
+    0 {
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    
+    100% {
+        -moz-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+@-o-keyframes spin {
+    0 {
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    
+    100% {
+        -moz-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+@-ms-keyframes spin {
+    0 {
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    
+    100% {
+        -moz-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+@keyframes spin {
+    0 {
+        -moz-transform: rotate(0);
+        -o-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    
+    100% {
+        -moz-transform: rotate(359deg);
+        -o-transform: rotate(359deg);
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+input:focus {
+    outline: 0
+}
+.hideElement {
+    display: none
+}
+.attentioniconBig-:before {
+    content: '\61'
+}
+.attentioniconBig- {
+    *zoom: expression(this.runtimeStyle['zoom']='1', this.innerHTML='&#x61;&nbsp;')
+}
+.attentioniconBig- {
+    font-family: 'icici7';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    font-size: 6em;
+    color: red;
+    display: block;
+    padding-top: .2em;
+    padding-bottom: .05em;
+    margin: auto;
+    width: 1.1em;
+    height: 1em
+}
+.attentioniconBigImage {
+    font-size: 1em!important;
+    width: 6.7em;
+    height: 6.1em;
+    padding-top: 2em;
+    background: url("../images/exclamation_opera.jpg") no-repeat center
+}
+.attentioniconBigImage:before {
+    content: ""!important
+}
+.sessionExpiredText {
+    padding: 0 .6em;
+    text-align: center;
+    display: block;
+    color: #666
+}
+.OOPSTextStyle {
+    padding-top: .5em;
+    font-size: 3em;
+    text-align: center;
+    color: red
+}
+.errorPageNavigator {
+    padding-top: 1.2em
+}
+.errorPageNavigator a {
+    color: #0cf
+}
+.paddingTopOneEm {
+    padding-top: 1em
+}
+#MessageDisplay_TABLE>.orangebg {
+    color: red;
+    padding-left: 1.5em
+}
+#MessageDisplay_TABLE>.orangebg:before {
+    font-family: 'icici7';
+    content: '\61';
+    padding-right: .2em
+}
+.orangebg a {
+    display: none
+}
+#MessageDisplay_TABLE {
+    box-shadow: 8px -1px 0 rgba(255, 0, 0, 1) inset;
+    background: #fff;
+    margin: auto;
+    min-width: 240px;
+    max-width: 480px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Roboto Condensed'!important;
+    font-weight: 400!important
+}
+.loginHelpBody {
+    overflow: hidden;
+    padding: 1.8em .8em 1.8em .8em;
+    background: #f1f1f1;
+    color: #666
+}
+.loginHelpBodyContent {
+    padding-bottom: 1.75em;
+    background: white;
+    border: .1em solid #e5e5e5
+}
+.loginHelpText {
+    margin-top: 1em;
+    padding-left: .7em;
+    padding-right: .7em
+}
+.loginHelpBody a {
+    text-decoration: none;
+    color: #0cf
+}
+.movileNavigatorPadding {
+    padding: 1.3em 1em 4em 1em
+}
+.iframeContainer {
+    padding: 2em 0 1em 0
+}
+.iframeContainer iframe {
+    width: 100%;
+    height: 198px
+}
+#iframetop {
+    display: none
+}
+.passwordWarningList {
+    list-style: none
+}
+.passwordWarningList li {
+    margin-top: 1em
+}
+.passwordWarningList li:first-child {
+    margin-top: 0
+}
+.passwordWarningList a {
+    color: #0cf
+}
+.setPasswordAlertClickHere {
+    color: #0cf;
+    text-decoration: underline;
+    background: transparent;
+    text-align: left;
+    cursor: pointer;
+    border: 0
+}
+table.jCalendar {
+    border: 1px solid #000;
+    background: #aaa;
+    border-collapse: separate;
+    border-spacing: 2px;
+    width: 100%;
+    height: 100%
+}
+table.jCalendar th {
+    background: #333;
+    color: #fff;
+    font-weight: bold;
+    padding: 3px 5px
+}
+table.jCalendar td {
+    background: #ccc;
+    color: #000;
+    vertical-align: middle;
+    text-align: center
+}
+table.jCalendar td.other-month {
+    background: #ddd;
+    color: #aaa
+}
+table.jCalendar td.today {
+    background: #666;
+    color: #fff
+}
+table.jCalendar td.selected {
+    background: #f66;
+    color: #fff
+}
+table.jCalendar td.selected.dp-hover {
+    background: #f33;
+    color: #fff
+}
+table.jCalendar td.dp-hover,
+table.jCalendar tr.activeWeekHover td {
+    background: #fff;
+    color: #000
+}
+table.jCalendar tr.selectedWeek td {
+    background: #f66;
+    color: #fff
+}
+table.jCalendar td.disabled,
+table.jCalendar td.disabled.dp-hover {
+    background: #bbb;
+    color: #888
+}
+table.jCalendar td.unselectable,
+table.jCalendar td.unselectable:hover,
+table.jCalendar td.unselectable.dp-hover {
+    background: #bbb;
+    color: #888
+}
+div.dp-popup {
+    position: relative;
+    background: #ccc;
+    font-size: 10px;
+    font-family: arial, sans-serif;
+    padding: 2px;
+    width: 171px;
+    line-height: 1.2em
+}
+div#dp-popup {
+    position: absolute;
+    z-index: 199
+}
+a#dp-close {
+    font-size: 11px;
+    padding: 4px 0;
+    text-align: center;
+    display: block
+}
+a#dp-close:hover {
+    text-decoration: underline
+}
+div.dp-popup a {
+    color: #000;
+    text-decoration: none;
+    padding: 0 .5em 0;
+    font-size: 2em
+}
+div.dp-popup div.dp-nav-prev {
+    float: left;
+    padding: 1.2em 0
+}
+div.dp-popup div.dp-nav-prev a {
+    float: left
+}
+div.dp-popup div.dp-nav-prev a,
+div.dp-popup div.dp-nav-next a {
+    cursor: pointer
+}
+div.dp-popup div.dp-nav-prev a.disabled,
+div.dp-popup div.dp-nav-next a.disabled {
+    cursor: default
+}
+div.dp-popup div.dp-nav-next {
+    float: right;
+    padding: 1.2em 0
+}
+div.monthContainer {
+    padding: .75em 0;
+    text-align: center;
+    font-size: 1.5em
+}
+div.dp-popup div.dp-nav-next a {
+    float: right
+}
+div.dp-popup a.disabled {
+    cursor: default;
+    color: #aaa
+}
+div.dp-popup td {
+    cursor: pointer
+}
+div.dp-popup td.disabled {
+    cursor: default
+}
+.ScheduledtrnsctnSummary>li {
+    padding: .9em 1.2em .9em 1.2em;
+    background: #fff;
+    display: block;
+    margin-top: .8em;
+    border: .1em solid #e5e5e5
+}
+.ScheduledtrnsctnSummary {
+    margin-top: 2.5em
+}
+.scheduledtrnsDate {
+    color: #666;
+    font-size: .88em;
+    font-family: "Roboto Condensed";
+    font-weight: 400;
+    float: left
+}
+.txnDatenStatus {
+    padding: .2em 0 0 0
+}
+.displayNone {
+    display: none
+}
+.scheduledTxnStatus {
+    font-size: .9em;
+    background-color: #fc0;
+    font-family: "Roboto Condensed";
+    margin-left: .2em;
+    padding: 0 .4em;
+    font-weight: 700
+}
+.txnSummaryWrapper {
+    float: left;
+    width: 100%;
+    margin-bottom: .8em
+}
+.scheduleDetailBottom {
+    float: left;
+    width: 100%;
+    border-top: 1px dashed #e4e4e4;
+    padding: .7em 0
+}
+.scheduleDetailBottom>li {
+    float: left;
+    width: 50%
+}
+.schedDet ul {
+    text-align: center
+}
+.schedDet ul li:first-child {
+    font-family: ""
+}
+.schedDet ul li:last-child {
+    font-family: "";
+    font-weight: 700
+}
+.dashedBorderRight {
+    border-right: 1px dashed #e4e4e4
+}
+.mobileSubmitButton {
+    width: 100%;
+    margin-top: 1.2em;
+    font-size: 1.15em;
+    position: relative;
+    -webkit-appearence: none;
+    appearence: none
+}
+.mobileSubmitButtonMarginGridVerify {
+    margin-top: 1.7em!important
+}
+.mobileSubmitButton input,
+span.mobileSubmitButton {
+    width: 100%;
+    background: #333;
+    padding: .9em 2.5em .9em .5em;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-bottom: .2em solid #000;
+    -webkit-appearence: none;
+    appearence: none;
+    white-space: normal
+}
+.mobileSubmitButton:active {
+    border-top: .2em solid rgba(0, 0, 0, 0)
+}
+.mobileSubmitButton input:active {
+    background: #444;
+    border-bottom: 0 solid #000
+}
+.mobileSubmitButton:active .rightArrow {
+    top: 51%
+}
+.mobileSubmitButton:active .animate-spin {
+    top: 51%
+}
+.schedTxnButton {
+    float: left;
+    width: 100%
+}
+.txnStatusSelected {
+    background-color: #999!important
+}
+.tranSumLeft {
+    float: left;
+    text-align: left
+}
+.trnsAmount {
+    font-size: 1.4em;
+    font-family: "Roboto Condensed";
+    font-weight: 700
+}
+ul.ScheduledtrnsctnSummary,
+ul.ScheduledtrnsctnSummary li {
+    list-style: none
+}
+.tranSumRight {
+    float: right
+}
+li.txnStatusSelected .iciciAmt,
+li.txnStatusSelected .scheduledtrnsDate,
+li.txnStatusSelected .schedDet ul>li:last-child {
+    color: #fff!important
+}
+li.txnStatusSelected .trnInvoice,
+li.txnStatusSelected .trnInvoice,
+li.txnStatusSelected .schedDet ul>li:first-child {
+    color: #d8d8d8
+}
+.scheduledTxnLastLabel {
+    text-align: left;
+    margin-top: 1em;
+    display: block;
+    padding: 0 .55em
+}
+input[type='checkbox'],
+input[type='radio'] {
+    position: absolute;
+    filter: alpha(opacity=0);
+    margin: 0 0 0 -24px;
+    width: 15px;
+    height: 15px
+}
+input[type="radio"]:checked+label {
+    background: url("../images/radio_Glow.png") no-repeat
+}
+input[type="radio"]+label {
+    position: relative;
+    margin: 0;
+    padding: 30px 0 0 30px;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 0;
+    line-height: 18px
+}
+input[type="checkbox"]+label {
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    display: inline-block;
+    z-index: 0;
+    line-height: 18px
+}
+input[type="radio"]+label {
+    background: url("../images/radio_NonGlow.png") no-repeat
+}
+input[type='radio']:disabled+label {
+    color: #999
+}
+input[type='radio']:disabled:checked+label {
+    color: #999
+}
+input[type='radio']:disabled+label {
+    color: #999
+}
+input[type='radio']:disabled:checked+label {
+    color: #999
+}
+.arrow_box {
+    position: relative;
+    border-bottom: 3px solid #e0e0e0
+}
+.arrow_box:after,
+.arrow_box:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+.arrow_box:after {
+    border-color: rgba(224, 224, 224, 0);
+    border-top-color: #f1f1f1;
+    border-width: 15px;
+    margin-left: -15px
+}
+.arrow_box:before {
+    border-color: rgba(224, 224, 224, 0);
+    border-top-color: #e0e0e0;
+    border-width: 20px;
+    margin-left: -20px
+}
+.billerNickName {
+    display: block!important;
+    padding-top: 1em!important;
+    color: #666!important;
+    font-size: 1.1em!important;
+    text-align: center!important;
+    background: white!important;
+    font-weight: 400!important
+}
+.textAlgnLeft {
+    text-align: left
+}
+.FTOtherInitiateToDetailsLabel1 {
+    padding-bottom: .5em;
+    color: #666
+}
+.forgotlink {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+    text-shadow: none
+}
+.shopMallAuthSubHead {
+    text-align: left
+}
+.notePaddingForListShopMall {
+    padding: 1.25em .5em 1em .9em
+}
+.shopMallConfTxt {
+    position: relative;
+    width: 12em;
+    margin: 0 auto
+}
+.shopMallConfButton {
+    cursor: pointer;
+    border: 0;
+    border-bottom: .1em solid #d8d8d8;
+    background: 0;
+    display: block;
+    text-align: left;
+    font-size: 1.625em;
+    color: #666
+}
+.shopMallConfButton a {
+    color: #666;
+    text-decoration: none;
+    display: block;
+    padding: 0 7em;
+    padding-top: .85em;
+    padding-bottom: .85em
+}
+.shopmallAmt label {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #333;
+    font-size: 1.2em
+}
+.shopmallAmt span {
+    display: inline-block
+}
+.shopMallAmountDisp span:last-child label {
+    display: block;
+    color: #666;
+    font-size: .82em;
+    text-align: center;
+    background: white;
+    font-weight: 400
+}
+.shopMallWaitTxt {
+    font-size: 1.8em;
+    float: left;
+    margin-left: .3em;
+    line-height: 1em
+}
+#Image19066877 {
+    margin-top: .2em;
+    margin-bottom: .2em;
+    height: 35px
+}
+.loginMobileSubmitButton input,
+span.loginMobileSubmitButton {
+    background: #f99d27!important;
+    border-bottom: .2em solid #ca7600;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif
+}
+.loginMobileSubmitButton:active {
+    border-top: .2em solid rgba(0, 0, 0, 0)
+}
+.loginMobileSubmitButton input:active {
+    background: #f99d27;
+    border-bottom: 0 solid #ae2b30
+}
+
+.loginMobileSubmitButton input[type=submit]:disabled {background: grey!important; border-bottom: .2em solid #636363; cursor: auto; }
+
+.loginInputTypeContainer>span>span {
+    position: relative;
+    display: block
+}
+.loginInputTypeContainer>span>span>input {
+    position: absolute;
+    left: 0;
+    padding: 0;
+    font-weight: 100;
+    top: 8px;
+    font-size: 17px
+}
+.loginInputTypeContainer {
+    height: 2.2em;
+    border-bottom-width: .1em;
+    font-size: 1.1em;
+    padding-left: .4em
+}
+.loginFooter>div>div {
+    background: #fff
+}
+.loginSafeBanking,
+.loginBankName {
+    color: #999;
+    font-weight: 400
+}
+.loginContainer .mobileSubmitButton {
+    margin-top: 0.9em
+}
+.cusNavigation {
+    background: #f99d27;
+    margin: 0 24px;
+    overflow: hidden
+}
+.cusNavigation>p {
+    width: 49%;
+    width: calc(50% - 6px);
+    float: left;
+    border-left: 3px solid #fff;
+    text-align: center
+}
+.cusNavigation>p>span:first-child {
+    display: inline-block;
+    margin-left: 0
+}
+.cusNavigation>p>span>a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1.3em;
+    margin-right: .2em
+}
+.cusNavigation>p:first-child {
+    float: left;
+    border-left: 0
+}
+.cusNavigation>p>span {
+    width: 88%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-align: center
+}
+.desktopLoginTxt {
+    color: #666 !important;
+    font-size: .9em
+}
+.cusNavigation>p>span>span {
+    font-size: 18px;
+    color: #f99d27;
+    font-family: Arial, Helvetica, sans-serif
+}
+.cusNavigation>p>span>span>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px
+}
+.loginFooter {
+    margin-top: -1px
+}
+@media screen and (max-width:320px) {
+    .container {
+        font-size: 85%
+    }
+}
+@media screen and (max-width:640px) and (orientation:portrait) {
+    .loginContact_li ul li {
+        padding: 17px
+    }
+}
+@media screen and (min-width:640px) {
+    .cusNavigation {
+        min-height: 60px
+    }
+}
+@media screen and (min-width:405px) and (max-width:445px) and (orientation:portrait) {
+    .cusNavigation>p>span>a {
+        font-size: 1.1em
+    }
+    
+    .cusNavigation>p>span>span {
+        font-size: 1.2em
+    }
+}
+@media screen and (max-width:400px) and (orientation:portrait) {
+    .contactUsBanner {
+        font-size: 80%
+    }
+    
+    .cusNavigation>p>span>a {
+        font-size: 1.1em
+    }
+    
+    .cusNavigation>p>span>span {
+        font-size: 1.1em
+    }
+    
+    .loginContact_li ul li {
+        padding: 7px
+    }
+    
+    .footerLogin {
+        margin: 0 11px
+    }
+    
+    .loginContact_li {
+        padding: 1px
+    }
+}
+@media screen and (min-width:341px) and (max-width:400px) and (orientation:portrait) {
+    .cusNavigation>p>span>a {
+        font-size: 1em
+    }
+    
+    .cusNavigation>p>span>span {
+        font-size: 1.1em
+    }
+}
+@media screen and (max-width:340px) and (orientation:portrait) {
+    .contact_li ul li {
+        font-size: 80%
+    }
+    
+    .loginContact_li ul li {
+        font-size: 80%
+    }
+    
+    .bannerRight,
+    .bannerLeft {
+        font-size: .8em
+    }
+    
+    .cusNavigation>p>span>a {
+        font-size: 1em
+    }
+    
+    .cusNavigation>p>span>span {
+        font-size: 1em
+    }
+}
+@media screen and (max-width:290px) {
+    .contact_li ul li {
+        font-size: 75%
+    }
+    
+    .loginContact_li ul li {
+        font-size: 75%
+    }
+    
+    .cardEntryBoxContainer p {
+        padding-right: 2.7em
+    }
+    
+    div.header img {
+        margin-left: 1em
+    }
+}
+@media screen and (max-width:280px) {
+    .container {
+        font-size: 80%
+    }
+    
+    .contact_li ul li {
+        font-size: 70%
+    }
+    
+    .loginContact_li ul li {
+        font-size: 70%
+    }
+    
+    .cardEntryBoxContainer p {
+        padding-right: 2.5em
+    }
+    
+    .cusNavigation>p>span>span>a {
+        font-size: 90%
+    }
+}
+@media screen and (max-width:240px) {
+    .container {
+        font-size: 80%
+    }
+    
+    div.header img {
+        margin-left: 1em
+    }
+}
+@media screen and (max-width:240px) and (orientation:portrait) {
+    .contact_li ul li {
+        font-size: 70%
+    }
+    
+    .loginContact_li ul li {
+        font-size: 70%
+    }
+    
+    .bannerRight,
+    .bannerLeft {
+        font-size: .7em
+    }
+    
+    div.header img {
+        margin-left: 1em
+    }
+}
+@media screen and (max-width:320px) and (orientation:portrait) {
+    .contactUsBanner {
+        font-size: 70%
+    }
+}
+.simpletextsectheaderMdot {
+    font-family: 'Roboto'!important;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none
+}
+.GlobalTitleMdot {
+    color: #000;
+    font-family: 'Roboto'!important;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 10px 5px 0
+}
+.ToSelectOption {
+    padding-top: 1.1em;
+    font-size: 1em;
+    color: #666;
+    position: absolute;
+    top: 0;
+    left: .6em
+}
+.background-ToBox {
+    background-color: #fff
+}
+.shopMallConfTxtMB {
+    position: relative;
+    margin: 0 auto
+}
+.loginContacts_img {
+    width: 35px;
+    height: 35px
+}
+.loginContacts_font {
+    font-size: 14px
+}
+.loginContacts_font_max {
+    max-width: 64px!important;
+    font-size: 14px!important
+}
+.loginContacts_font_padding_right0 {
+    font-size: 14px;
+    padding-right: 0!important
+}
+.inputTypeContainerPanPadding {
+    padding-left: 2.6em
+}
+.inputTypeContainerPanColorOverride {
+    background: transparent
+}
+.radioButtonContainer {
+    padding-bottom: 1.2em;
+    text-align: left
+}
+.radioCreditCardDetails {
+    padding-bottom: 1.8em
+}
+.bodyOnlyTopPaddingRemoval {
+    padding: 0 .75em 1.8em
+}
+.bodyBottomOnlyPaddingRemoval {
+    padding: 1.8em .75em 1.2em
+}
+.inputTypeContainerWrapper {
+    position: relative;
+    padding-top: 1.2em;
+    display: block
+}
+.radioButtonPositionStyle input[type="radio"]+label {
+    padding: 6px;
+    padding-left: 39px;
+    top: 0;
+    left: 0;
+    position: static
+}
+.radioClickButtonPositionStyle {
+    position: relative
+}
+.fdTermsConditionTextStyle {
+    padding-left: 3.5em;
+    display: block
+}
+.fdTermsConditionCheckBoxStyle {
+    position: absolute
+}
+.fdPaddingLeftStyle {
+    padding-left: .3em
+}
+.bodyContainerBackgroundOverride {
+    background: #f1f1f1
+}
+.creditCardRadioButtonStyle {
+    color: #fff;
+    text-align: left
+}
+.creditCardRadioButtonWrapper {
+    padding-top: .7em
+}
+.selectContainerFirstElementPaddingRemoval {
+    margin-top: 0
+}
+.checkBoxWhiteText {
+    color: #fff
+}
+.radioBoxDefaultContainerBoxStyle {
+    outline: 0;
+    border-color: #ccc;
+    background: #fff;
+    position: relative;
+    border: 1px solid;
+    padding-left: .6em;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    display: block;
+    color: #000;
+    text-align: left
+}
+.radioCreditCardSection {
+    background: #999;
+    margin-left: .75em;
+    margin-right: .75em;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    padding: 0 .75em
+}
+.viewLastCurrentStatement {
+    text-align: left!important;
+    font-size: 1.2em;
+    color: #0000;
+    display: inline-block;
+    margin-top: 1.2em;
+    width: 100%!important
+}
+.hideCreditCardDetailsForm {
+    background: #fff
+}
+.hideCreditCardDetailsForm .radioButtonContainer {
+    color: #000
+}
+.hideCreditCardDetailsForm .radioCreditCardDetails {
+    display: none
+}
+.hideCreditCardDetailsForm .radioCreditCardDetails .selectContainer {
+    display: none
+}
+.hideCreditCardDetailsForm .radioCreditCardDetails .inputTypeContainer {
+    display: none
+}
+.hideCreditCardDetailsForm .radioCreditCardDetails .hiddenTermsAndCondtion {
+    display: none
+}
+.inputTypeContainerPanNumberColorOverride {
+    background: transparent
+}
+.viewLastCurrentStatementSubHeading {
+    text-align: left;
+    font-size: 1.15em;
+    font-weight: 500;
+    padding-left: 0;
+    color: #666
+}
+.viewLastCurentStatementRowsetStyle {
+    margin-top: 2.24em
+}
+.viewLastCurrentStatementDropdownStyle {
+    padding-left: .3em!important
+}
+.viewLastCurrentStatementDropdownPadding {
+    margin-top: .5em
+}
+.sideHeadingTextStyle {
+    padding-top: 2em
+}
+.creditCardList {
+    margin-top: 1.8em
+}
+.depositAccountsWrapper {
+    margin-top: 0
+}
+.schedDetCardholdername {
+    width: 100%!important
+}
+.accountSummaryBybranch {
+    display: block;
+    text-align: center;
+    padding: .75em;
+    border-bottom: .1em dotted #ccc;
+    background: #fff;
+    margin: 0 .75em .5em;
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #000
+}
+.accountSummaryDate {
+    display: block;
+    text-align: center;
+    color: #666;
+    font-weight: 400;
+    border-bottom: .1em dotted #ccc;
+    background: #fff;
+    margin: .75em;
+    margin-bottom: 0;
+    padding-bottom: .8em
+}
+.viewLastCurent {
+    margin-top: .8em;
+    padding-bottom: 1.1em!important
+}
+.accountDetail {
+    font-weight: 200;
+    font-size: .8em
+}
+.accountType {
+    font-size: 1em;
+    font-family: "Roboto Condensed";
+    font-weight: 700
+}
+.balanceDetail {
+    font-size: 1.8em;
+    line-height: 1em
+}
+.fontWeightnormal {
+    font-weight: 400!important;
+    color: #666!important
+}
+li.txnStatusSelected .schedDet ul>li.fontWeightnormal {
+    color: #d8d8d8!important
+}
+.amountdispLight span {
+    font-weight: 400!important;
+    font-size: 1.1em!important
+}
+.amountdispLight label {
+    font-weight: 400!important;
+    font-size: .95em!important
+}
+.txnSummaryWrappermarginbottom {
+    margin-bottom: 0!important
+}
+.txnSummaryWrappermargintop {
+    margin-top: .8em!important
+}
+.radioTxtData {
+    padding-bottom: .5em
+}
+.radioimpsSection {
+    background: #fff;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    margin-bottom: 1.25em;
+    padding: .75em
+}
+.fdDateLabel {
+    font-weight: 400!important;
+    margin-right: .3em!important;
+    margin-left: .1em
+}
+span.fdDateText {
+    font-size: 1.7em
+}
+.rdContentwrapper {
+    padding: .9em 1.2em;
+    background: #fff;
+    display: block;
+    color: #666;
+    border: .1em solid #e5e5e5;
+    margin-top: 1.6em
+}
+.middleText {
+    float: left;
+    width: 49%
+}
+.middleText label {
+    font-size: 1.1em;
+    display: block;
+    color: #666;
+    text-align: center;
+    background: #fff;
+    font-weight: 400
+}
+.middleText span {
+    color: #333;
+    font-size: 1.1em;
+    text-align: center
+}
+.schedDetCardholderdatetime {
+    width: 100%!important;
+    border-top: 0;
+    padding: 0;
+    float: left
+}
+.timedatepadding {
+    padding-left: .25em
+}
+.optionnametype {
+    line-height: 1.5em
+}
+.airtelImageicon {
+    padding-top: 15px
+}
+.iconimage {
+    display: block
+}
+.txtdata {
+    padding-top: 4px;
+    padding-bottom: 9px
+}
+.footerheightadd {
+    height: 602.140625px
+}
+.quickPaySelect {
+    list-style: none;
+    float: left;
+    position: relative
+}
+.quickPaySelect>li {
+    background: #fff;
+    display: block;
+    width: 100%;
+    float: left;
+    border: .1em solid #e5e5e5
+}
+.quickPayDetailBottom {
+    float: left;
+    width: 100%;
+    position: relative
+}
+.rechargetypeName {
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #333;
+    float: left;
+    padding-top: .4em;
+    padding-left: .5em;
+    display: inline-block;
+    position: relative
+}
+.radiobttndata {
+    display: inline-block;
+    padding-top: .5em;
+    padding-right: .5em
+}
+.quickImgData {
+    float: left;
+    line-height: 0
+}
+.searchImg {
+    position: absolute;
+    color: #acacac;
+    right: 0;
+    font-size: 1.2em;
+    height: 100%;
+    line-height: 56px;
+    padding-left: 5px;
+    padding-right: 10px;
+    cursor: pointer
+}
+.inputbxwidth {
+    width: 85%;
+    padding-right: 15%
+}
+.quickImg {
+    float: left
+}
+.radiobttndata>input[type='radio'] {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100%;
+    left: 0;
+    margin: 0;
+    top: 0;
+    height: 100%
+}
+.radiobttndata>input[type="radio"]+label {
+    background: url(../images/radio_NonGlow.png) no-repeat right;
+    width: 98.5%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0
+}
+.radiobttndata>input[type="radio"]:checked+label {
+    background: url(../images/radio_Glow.png) no-repeat right;
+    width: 98.5%;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0
+}
+.trnscheight {
+    height: 5.8em!important
+}
+.CrdtDbtmargin {
+    margin-top: .8em
+}
+.trnsclist {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0
+}
+.rcntTrnanscation {
+    text-align: left;
+    padding-left: .8em
+}
+.viewMoreButton input {
+    text-align: center;
+    padding: .9em .5em
+}
+.removeButtonIcon {
+    display: none
+}
+.summaryTextStyle {
+    margin-right: 5px!important
+}
+.transRight {
+    float: right;
+    margin-top: 19px;
+    font-size: .78rem;
+    width: 50%
+}
+.cardType {
+    color: #666;
+    margin-right: 5px
+}
+.cardTypeValue {
+    color: #000;
+    font-weight: 700
+}
+.amntDue {
+    color: #666;
+    width: 100%
+}
+.amntDueValue {
+    color: #000;
+    float: right;
+    width: 100%;
+    font-weight: 700
+}
+.dueDateWrap {
+    width: 69%;
+    text-align: right;
+    float: right;
+    margin-top: 5px
+}
+.cardTypeWrap {
+    text-align: right
+}
+.FTNonAccSummaryBody div.accDetData p.amountDisp span label.simpletext {
+    display: block;
+    padding-top: 1em;
+    color: #666;
+    font-size: 1.2rem!important;
+    text-align: center;
+    background: #fff;
+    font-weight: 400!important
+}
+.FTNonAccSummaryBody div.accDetData p.amountdispLight span label.simpletext {
+    display: block;
+    padding-top: 1em;
+    color: #666;
+    font-size: 1.2rem!important;
+    text-align: center;
+    background: #fff;
+    font-weight: 500!important
+}
+.inputTypeContainerTenurePadding {
+    padding-left: 7.3em
+}
+.centerit {
+    text-align: center
+}
+#ShopMallCreditCardDetailSection .FTNonAccSummaryBody {
+    padding-bottom: 0!important;
+    padding-top: .8em!important
+}
+#ShopMallCreditCardDetailSection .accDetData {
+    padding-bottom: .8em
+}
+#ShopMallCreditCardDetailSection .accDetData label {
+    padding-top: .5em
+}
+#ShopMallCreditCardDetailSection .accDetData .amountDisp .iciciAmt label {
+    display: inline
+}
+.note.notePaddingForListShopMall.merged {
+    padding-top: 0;
+    padding-bottom: .8em
+}
+.shopmergedOTP .cardContainer,
+.shopmergedOTP .cardEntryBoxContainer {
+    text-align: center
+}
+.shopmergedOTP .cardVerifyText {
+    padding-left: 0
+}
+.shopmergedOTP.OTPNumber {
+    font-size: 1.9em
+}
+.shopmergedOTP .cardVerifyText .OTPNumber {
+    font-size: 1.9em;
+    text-align: left;
+    padding-top: 0;
+    padding-left: 0
+}
+.shopMergedOtpLabel {
+    font-size: 1.9em
+}
+.shopMergedDiscriptionText {
+    padding-top: .5em
+}
+.floatleft1 {
+    float: left;
+    width: 35%;
+    margin-left: -8%;
+    margin-right: 5%
+}
+.floatleft2 {
+    float: left;
+    width: 35%;
+    margin-left: -7%;
+    margin-right: 7%
+}
+.floatleft4 {
+    float: left;
+    width: 35%;
+    margin-left: -4%;
+    margin-right: 7%
+}
+.floatleft3 {
+    float: left;
+    width: 35%;
+    margin-left: -12%;
+    margin-right: 5%
+}
+.floatRight {
+    float: left;
+    width: 30%
+}
+.spanFont {
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300
+}
+.liborder {
+    background: #fff;
+    border: .1em solid #ccc;
+    border-bottom-width: .2em;
+    PADDING: .15em;
+    margin: .5em
+}
+.imageSize {
+    background-size: 20px 20px!important
+}
+#iciciAccountDetailOneSection15.bodyCont li {
+    list-style-type: none!important
+}
+.listStyleRemove {
+    list-style-type: none!important
+}
+.verPad1 {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    word-wrap: break-word
+}
+.verPad2 {
+    padding-top: .4em;
+    padding-bottom: .4em;
+    word-wrap: break-word
+}
+.verpad3 {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    word-wrap: break-word
+}
+.sp_footer_recharge a {
+    color: orange
+}
+.sp_footer_recharge {
+    text-align: left;
+    padding-top: 15px
+}
+.mobileSubmitButton.sp_inactive_button input {
+    background-color: #ddd;
+    border-bottom-color: #ddd;
+    pointer-events: none
+}
+.sp_flo_R {
+    float: right;
+    margin: 0
+}
+.sp_flo_L {
+    float: left
+}
+.sp_sub_nav_tabs {
+    margin-bottom: 15px
+}
+.sp_sub_nav_tabs_head {
+    overflow-x: scroll;
+    height: 65px
+}
+.sp_sub_nav_tabs_head::-webkit-scrollbar {
+    display: none
+}
+.sp_sub_nav_tabs::-webkit-scrollbar {
+    display: none
+}
+.sp_sub_nav_tabs ul li {
+    list-style-type: none;
+    display: inline-block;
+    white-space: nowrap;
+    vertical-align: top;
+    font-size: 14px
+}
+.sp_sub_nav_ul {
+    background-color: #e1e1e1;
+    width: 565px;
+    text-align: left
+}
+.sp_sub_nav_ul::-webkit-scrollbar {
+    display: none
+}
+.sp_sub_nav_tab {
+    display: inline-block;
+    cursor: pointer;
+    color: #7c7c7c
+}
+.sp_down_arrow_line {
+    width: inherit;
+    text-align: center;
+    height: 4px;
+    background-color: #f88d2a;
+    display: none
+}
+.sp_down_arrow {
+    width: 0;
+    height: 0;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    border-top: 6px solid #f88d2a;
+    position: relative;
+    top: 10px
+}
+.sp_active_tab .sp_down_arrow_line {
+    display: block
+}
+.sp_active_tab .sp_sub_nav_tab_name {
+    color: #f88d2a
+}
+.sp_sub_nav_tab_name {
+    line-height: 50px;
+    padding: 0 9px;
+    display: block
+}
+.sp_back_slash {
+    line-height: 50px;
+    display: block
+}
+.sp_sub_nav {
+    width: 100%;
+    background-color: #e1e1e1;
+    padding: 15px;
+    border-bottom: 1px solid #d4d4d4;
+    font-size: 12px;
+    font-weight: 700;
+    box-sizing: border-box
+}
+.sp_sub_titles {
+    padding: 0 10px
+}
+.sp_sub_section {
+    background-color: #f7f7f4;
+    border: 1px solid #d4d4d4
+}
+.sp_sub_section .sp_sub_titles_items {
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack: justify;
+    width: 100%;
+    box-sizing: border-box
+}
+.sp_sub_section .sp_sub_titles_item {
+    -webkit-box-flex: 1;
+    list-style-type: none;
+    color: #c2c2c2
+}
+.sp_sub_titles_item {
+    text-align: center
+}
+.sp_align_right {
+    text-align: left
+}
+.sp_align_left {
+    text-align: right
+}
+.sp_nav_art_circles,
+.sp_nav_circle_extension,
+.sp_nav_bar_art {
+    position: relative
+}
+.sp_nav_circle_art {
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 100%;
+    background-color: #c2c2c2;
+    display: inline-block;
+    top: -18px
+}
+.width100percent {
+    width: 100%
+}
+.sp_nav_bar_art {
+    width: 100%;
+    height: 2px;
+    background-color: #c2c2c2;
+    display: table
+}
+.sp_hide {
+    display: none
+}
+.sp_hover {
+    cursor: pointer
+}
+.sp_nav_const_template ul li {
+    list-style-type: none;
+    display: inline-block
+}
+.sp_sub_section .sp_no_margin {
+    margin: 0
+}
+.sp_pos_rel {
+    position: relative
+}
+.sp_nav_circle_extension {
+    width: 322.5px;
+    position: absolute;
+    background-color: inherit;
+    height: 2px;
+    top: 6px
+}
+.sp_sub_section .sp_circle {
+    width: 25%;
+    list-style-type: none;
+    position: relative;
+    display: inline-block
+}
+.sp_bgc_black {
+    background-color: #7c7c7c
+}
+.sp_bgc_black .sp_nav_circle_extension {
+    background-color: #7c7c7c
+}
+.sp_bgc_orange {
+    background: #f88d2a
+}
+.sp_bgc_orange .sp_nav_circle_extension {
+    background: #f88d2a
+}
+.sp_variable_wrapper_content {
+    box-sizing: border-box
+}
+.Inline30PerW {
+    width: 35%;
+    display: inline-block
+}
+.sp_content {
+    margin: 0 10px;
+    padding: 25px 10px;
+    font-size: 12px;
+    border-bottom: 1px solid #d4d4d4
+}
+.sp_content_text {
+    line-height: 40px;
+    vertical-align: middle;
+    font-weight: 700
+}
+.sp_cont_text_with_link {
+    margin: 10px 0
+}
+.sp_cont_text_with_link a {
+    color: #f88d2a;
+    border-bottom-color: #f88d2a
+}
+.sp_btn_wrap {
+    padding: 25px
+}
+.sp_width_10 {
+    width: 10%
+}
+.sp_width_35 {
+    width: 35%
+}
+.sp_width_40 {
+    width: 40%
+}
+.sp_width_15 {
+    width: 15%
+}
+.sp_width_20 {
+    width: 20%
+}
+.sp_w_mob_btn {
+    width: 100%;
+    margin: auto
+}
+.sp_w_mob_btn button {
+    width: 100%;
+    letter-spacing: 5px
+}
+.sp_btn {
+    padding: 10px;
+    border: 1px solid #f88d2a;
+    background-color: #fff;
+    cursor: pointer;
+    color: #f88d2a
+}
+.sp_h1 {
+    display: inline-block;
+    padding: 0
+}
+.sp_nav_const_template_preview ul li {
+    list-style-type: none;
+    display: inline-block
+}
+.sp_nav_const_template_preview .sp_template {
+    padding: 15px 25px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 0 5px!important
+}
+.sp_nav_const_template .sp_template {
+    padding: 15px 25px;
+    box-sizing: border-box;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #fff;
+    margin: 0 0 5px!important
+}
+.sp_template li {
+    box-sizing: border-box;
+    vertical-align: top;
+    float: left
+}
+.sp_align_C {
+    vertical-align: center
+}
+.sp_template .sp_li_h1 {
+    padding: 5px 0;
+    color: #f88d2a
+}
+.sp_temp_div_title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+.sp_temp_div_cont {
+    margin-top: 10px;
+    display: none
+}
+.sp_template .sp_temp_li_cont {
+    padding: 0 15px
+}
+.sp_right {
+    float: right
+}
+.sp_active_template .sp_temp_div_cont {
+    display: block
+}
+.sp_active_template .sp_template {
+    background-color: #FEFBF4
+}
+.sp_sub_section .sp_txt_orange {
+    color: #f88d2a
+}
+.sp_sub_section .sp_txt_black {
+    color: #7c7c7c
+}
+.sp_sub_section .sp_sub_titles_items {
+    margin-bottom: 20px!important
+}
+.sp_sub_section .sp_sub_nav_ul {
+    margin-top: 0!important
+}
+.sp_sub_nav_wrapper .sp_wrapper_heading {
+    padding: 15px 25px;
+    background-color: transparent
+}
+.sp_sub_button_wrapper {
+    border-bottom: 1px solid #d4d4d4
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+.input_height {
+    height: 20px
+}
+.sp_wid_inp_3 {
+    width: 25px;
+    text-align: right
+}
+input[type=number] {
+    padding: 0 5px
+}
+.sp_wid_inp_10 {
+    width: 155px
+}
+.sp_wid_inp_am {
+    width: 197px
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0
+}
+.sp_temp_li {
+    list-style-type: none
+}
+.sp_cont_preview .sp_temp_div_title {
+    margin-bottom: 0
+}
+.sp_lin_h38 {
+    line-height: 38px
+}
+.sp_table tr td {
+    text-align: left;
+    width: 10%;
+    color: #c2c2c2;
+    line-height: 30px
+}
+.sp_table td div,
+.sp_table td span {
+    color: #000
+}
+.sp_table td a {
+    color: #f88d2a
+}
+.sp_plan_wrap {
+    background-color: #fff;
+    padding: 15px 20px
+}
+.sp_w_rec_title {
+    width: 30%;
+    color: orange;
+    font-size: 28px;
+    text-align: left
+}
+.sp_w_rec_body {
+    width: 70%;
+    text-align: left
+}
+.sp_plan_head {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 0
+}
+.sp_plan_content {
+    color: #a6a6a6;
+    padding: 3px 0
+}
+.sp_margin_bottom {
+    margin-bottom: 10px
+}
+.sp_recharge_plans_wrapper {
+    overflow: hidden
+}
+.sp_top_margin {
+    margin-top: 20px
+}
+.hide_tabs {
+    visibility: hidden;
+    display: none
+}
+.show_tabs {
+    visibility: visible;
+    display: block;
+    background-color: #f7f7f4
+}
+.leftrightPadding {
+    padding-left: 37%;
+    padding-right: 34%;
+    letter-spacing: 5px
+}
+.textMBstyle {
+    font-weight: 100;
+    font-size: 1em;
+    color: #333;
+    padding-left: .5em
+}

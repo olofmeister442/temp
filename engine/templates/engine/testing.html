@@ -1,0 +1,51 @@
+{% load static %}
+  <!DOCTYPE html>
+<html>
+   <head>
+       <script src="{% static 'engine/js/jquery.js' %}"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+       <link href="{% static 'engine/css/materialize.min.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+       <link href="{% static 'engine/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+   </head>
+   <body>
+      <div class="row">
+          <p class="center" id="countintent">Intent Checking</p>
+      </div>
+      <table class="striped centered">
+        <thead id="intenthead">
+          <tr>
+              <th>Sentence</th>
+              <th>Intent</th>
+              <th>Recognized Intent</th>              
+          </tr>
+        </thead>
+
+        <tbody id="intentbody">
+        </tbody>
+      </table>                
+
+      <br>
+      <br>
+      <br>
+
+            <div class="row">
+          <p class="center">WordMapper Checking</p>
+      </div>
+      <table class="striped centered">
+        <thead id="wordmapperhead">
+          <tr>
+              <th>Word Mapper Keyword</th>
+              <th>Intent</th>
+              <th>Intent Keyword to Remove</th>
+          </tr>
+        </thead>
+
+        <tbody id="wordmapperbody">
+        </tbody>
+      </table>
+      <script src="{% static 'engine/js/testing.js' %}"></script>
+      <script src="{% static 'engine/js/materialize.js' %}"></script>
+
+   </body>
+</html>

@@ -1,0 +1,47 @@
+{% load static %}
+  <!DOCTYPE html>
+<html>
+   <head>
+       <script src="{% static 'engine/js/jquery.js' %}"></script>
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+       <link href="{% static 'engine/css/materialize.min.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+       <link href="{% static 'engine/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+   </head>
+   <body>
+      <div class="main-div">
+      <div id="header" class="row">
+         <div class="col s2 m2 l2" >
+            <span class="helper"></span>
+         </div>
+         <div class="col s8 m8 l8" >
+            <p  class="chatbot_name">Ask HIA for Help</p>
+         </div>
+         <div class="col s2 m2 l2" style="height: 100%;text-align: center;margin-top:5px;">
+            <span class="helper "></span><img id="close-chatbot" src="{% static 'engine/img/cancel5.png' %}" width="18" style="cursor:pointer;" class="responsive-img" >
+         </div>
+      </div>
+      <div  class="scrollbar row" id="style-2" style="position: absolute;">
+         <br>
+         <div  class="row">
+            <div class="new-chat-form-launcher disabled" data-radium="true">
+
+               <div id="submit" class="send-button">
+                  <img id="submit-img" src="{% static 'engine/img/send1.png' %}" width=28 class="responsive-img">
+               </div>
+
+               <form class="input-container" data-radium="true">
+                  <div  style="width: calc(100%);" style="display: block;">
+                     <input class="chat-input" autocomplete="off" id="query" contenteditable="true" placeholder="Ask me about SBI products or features">
+                  </div>
+               </form>
+            </div>
+            <div id="restart-button" class="menu-button" title="Restart" style="color: rgb(102, 56, 205); background:#1B5CAB;"><img src="{% static 'engine/img/restart.png' %}" width="24" height="22" style="padding:auto" class="responsive-img">
+            </div>
+         </div>
+      </div>
+   </div>
+   <script src="{% static 'engine/js/materialize.js' %}"></script>
+   <script src="{% static 'engine/js/init.js' %}"></script>
+   </body>
+</html>

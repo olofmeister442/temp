@@ -1,0 +1,17 @@
+python-memcached==1.59
+xmltodict==0.11.0
+django-cors-headers==2.1.0
+django-sslserver==0.20
+django-user-agents==0.3.2
+Django==1.11.10
+django-ckeditor==5.4.0
+djangorestframework==3.7.7
+editdistance==0.4
+gunicorn==19.6.0
+numpy==1.14.0
+openpyxl==2.5.0
+pandas==0.22.0
+pytz==2017.3
+requests==2.18.4
+tablib==0.12.1
+whitenoise==3.3.1

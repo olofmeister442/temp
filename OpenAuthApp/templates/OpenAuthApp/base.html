@@ -1,0 +1,51 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title class="bank-name-title"></title>
+    
+  <link href="{% static 'OpenAuthApp/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <link href="{% static 'OpenAuthApp/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <link href="{% static 'OpenAuthApp/css/icons.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+
+  <style type="text/css">
+    
+  </style>
+
+</head>
+<body>
+
+  <div class="navbar-fixed">
+    <nav class="blue" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/home/" class="brand-logo white-text">
+          OpenAuth
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+          {% if request.user.is_authenticated %}
+          <li>
+            <a href="/logout/">Logout</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  {% block content %}
+  {% endblock %}
+
+  <script type="text/javascript" src="{% static 'OpenAuthApp/js/jquery.js' %}"></script>
+  <script type="text/javascript" src="{% static 'OpenAuthApp/js/materialize.js' %}"></script>
+  <script type="text/javascript" src="{% static 'OpenAuthApp/js/init.js' %}"></script>
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+
+  
+</body>
+</html>

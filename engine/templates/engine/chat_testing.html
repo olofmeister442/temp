@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<script src="{% static 'engine/js/jquery.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="{% static 'engine/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+ <nav class="blue darken-3" role="navigation">
+   <div class="nav-wrapper container"><a id="logo-container" href="/chat/chatbot_test/" class="brand-logo">AllinCall</a>
+     <ul class="right hide-on-med-and-down">
+       <li><a href="/chat/chatbot_test/">Back</a></li>
+       <li><a href="/chat/runtests/" onclick="return theFunction();">See Test Results</a></li>
+     </ul>
+   </div>
+ </nav>
+
+ <div class="container">
+
+   <div class="row">
+     <div class="col s12">
+       <br>
+       <h5><span id="query"></span></h5>
+     </div>
+   </div>
+
+   <div class="row">
+     <div class="input-field col s8" >
+       Please provide the test sentences separated by <b>new lines</b>
+       <br><br>
+       <br><br>
+       <hr>
+       <textarea id="textarea1" style="height:240px;" class="materialize-textarea" placeholder="Please provide the test sentences separated by new lines"></textarea>
+     </div>
+   </div>
+   
+   <a class="waves-effect waves-light btn blue darken-4" id="save">Save</a>&nbsp;&nbsp;&nbsp;&nbsp;
+   <a class="waves-effect waves-light btn red darken-2" href="/chat/chatbot_test/">Cancel</a>
+   
+   <br>
+   <br>
+   <br>
+   <br>
+<h5>
+    Answer:
+</h5>
+   <div id="answer" class="row">
+   <div id="answerappend" class="col s9">
+   </div>
+   </div>
+   <script src="{% static 'engine/js/chat_testing.js' %}"></script>
+   <script src="{% static 'engine/js/materialize.js' %}"></script>
+   <script type="text/javascript">
+    function theFunction () {
+        $("#save").click();     
+    }
+</script>
+ </div>
+</body>
+</html>

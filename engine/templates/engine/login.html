@@ -1,0 +1,123 @@
+{% load static %}
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<html lang="en" class="stylish-select">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css"></style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" src="{% static 'engine/js/jquery.js' %}"></script>
+    <!-- <link href="{% static 'OpenAuthApp/css/style.css' %}" rel="stylesheet" type="text/css"> -->
+
+
+
+    <title>Login</title>
+</head>
+
+<body>
+
+<div class="navbar-fixed">
+    <nav class="blue" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/chat/login/" class="brand-logo white-text">
+          ICICI Dashboard
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+          {% if request.user.is_authenticated %}
+          <li>
+            <a href="/chat/logout/">Logout</a>
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+<br><br><br>
+<div class="container">
+
+  <div class="row">
+    <div class="input-field col s8 l4 offset-s2 offset-l4">
+      <input placeholder="username" id="username" type="text" class="validate" autocomplete="off">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="input-field col s8 l4 offset-s2 offset-l4">
+      <input placeholder="password" id="password" type="password" class="validate" autocomplete="off">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col s8 l4 offset-s2 offset-l4">
+      <button id="login_btn" class="waves-effect waves-light btn blue" >Login</button>
+    </div>
+  </div>
+
+</div>
+
+        
+<!-- <script src="{% static 'engine/js/jquery.js' %}"></script> -->
+<script type="text/javascript">
+
+$(document).ready(function () {
+
+
+  $('#login_btn').click(function(){
+
+    username = $('#username').val();
+    password = $('#password').val();
+
+    $.ajax({
+        url: "/chat/login_submit/",
+        type: "POST",
+        data: {
+            username: username,
+            password: password
+        },
+        success: function(response) {
+            console.log("Success fetching data!", response);
+            if(response['status']==200 && response['type']=="Business")
+            {
+                window.location.href = '/chat/business_dashboard';
+            }
+
+            if(response['status']==200 && response['type']=="IT")
+            {
+                window.location.href = '/chat/it_dashboard';
+            }            
+        },
+        error: function(xhr, textstatus, errorthrown) {
+            console.log("Please report this error: "+errorthrown+xhr.status+xhr.responseText);
+        }
+    });
+
+  });
+
+  
+  function update_business_dashboard()
+  {
+    $.ajax({
+      url: "/some_url",
+      type: "POST",
+      data : {
+
+      },
+      success: function(data){
+        pc_id = data["pc_id"]
+      }
+    });
+
+  }
+
+
+});
+
+
+
+</script>
+</body>
+
+</html>

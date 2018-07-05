@@ -1,0 +1,3849 @@
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response_id': 2131, 'response': u'', 'choices': []} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response_id': 2142, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response_id': 2131, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response_id': 2131, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response_id': 2131, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response_id': 2131, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response_id': 2142, 'response': u'', 'choices': []} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response_id': 2142, 'response': u'', 'choices': []} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response_id': 2142, 'response': u'', 'choices': []} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response_id': 2142, 'response': u'', 'choices': []} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response_id': 2142, 'response': u'', 'choices': []} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response_id': 2142, 'response': u'', 'choices': []} Check json
+Goes QUERY
+Pay credit card
+
+web
+eng
+No Tree
+pay credit card 1
+pay credit card 2
+pay credit card 3
+pay credit card 4
+pay credit card 5
+pay credit card 6
+pay credit card 7
+After pre processing: pay credit card
+[<Intent: Credit Card>, <Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+
+8169392028
+{'pipe': u'Pay credit card | Credit Card|Due Date|', 'is_answer': 'false', 'response_id': 2139, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+Pay credit card
+
+web
+eng
+No Tree
+pay credit card 1
+pay credit card 2
+pay credit card 3
+pay credit card 4
+pay credit card 5
+pay credit card 6
+pay credit card 7
+After pre processing: pay credit card
+[<Intent: Credit Card>, <Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+
+8169392028
+['ending in 1@2@3@1', 'ending in 2@3@4@1']
+{'pipe': u'Pay credit card | Credit Card|Due Date|', 'is_answer': 'false', 'response_id': 2139, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+Pay credit card
+
+web
+eng
+No Tree
+pay credit card 1
+pay credit card 2
+pay credit card 3
+pay credit card 4
+pay credit card 5
+pay credit card 6
+pay credit card 7
+After pre processing: pay credit card
+[<Intent: Credit Card>, <Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+
+8169392028
+['ending in 1@2@3@1', 'ending in 2@3@4@1']
+{'pipe': u'Pay credit card | Credit Card|Due Date|', 'is_answer': 'false', 'response_id': 2139, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+Pay credit card
+
+web
+eng
+No Tree
+pay credit card 1
+pay credit card 2
+pay credit card 3
+pay credit card 4
+pay credit card 5
+pay credit card 6
+pay credit card 7
+After pre processing: pay credit card
+[<Intent: Credit Card>, <Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+
+8169392028
+['ending in 1@2@3@1', 'ending in 2@3@4@1']
+{'pipe': u'Pay credit card | Credit Card|Due Date|', 'is_answer': 'false', 'response_id': 2139, 'response': u'', 'choices': []} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1234
+
+1234 1
+1234 2
+1234 3
+1234 4
+1234 5
+1234 6
+1234 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1234
+
+1234 1
+1234 2
+1234 3
+1234 4
+1234 5
+1234 6
+1234 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1919
+
+1919 1
+1919 2
+1919 3
+1919 4
+1919 5
+1919 6
+1919 7
+Current stage: post
+Current stage: pre
+
+10000
+8451823773
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'9867760935', u'mob_3': u'', u'mob_1': u'8451823773', u'mpin_bill_limit': u'2000', u'mpin': u'1919', u'nick_4': u'', u'nick_2': u'Soham', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'004001608501', u'mpin_recharge_limit': u'2000'}
+004001608501
+000
+Goes QUERY
+Pay credit card
+
+web
+eng
+No Tree
+pay credit card 1
+pay credit card 2
+pay credit card 3
+pay credit card 4
+pay credit card 5
+pay credit card 6
+pay credit card 7
+After pre processing: pay credit card
+[<Intent: Credit Card>, <Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+
+8169392028
+['ending in 1@2@3@1', 'ending in 2@3@4@1']
+{u'numbers': [u'ending in 1@2@3@1', u'ending in 2@3@4@1']}
+GOES HERE2
+{'is_typable': 'true', 'pipe': u'Pay credit card | Credit Card|Due Date|', 'is_answer': 'false', 'response': u'Speak 1 for ending in 1-2-3-1. Speak 2 for ending in 2-3-4-1. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1919
+
+1919 1
+1919 2
+1919 3
+1919 4
+1919 5
+1919 6
+1919 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+credit card transactions
+
+web
+eng
+No Tree
+credit card transactions 1
+credit card transactions 2
+credit card transactions 3
+credit card transactions 4
+credit card transactions 5
+credit card transactions 6
+credit card transactions 7
+After pre processing: credit card transactions
+[<Intent: Credit Card>]
+Goood
+Okay
+Current stage: pre
+
+8169392028
+['ending in 1@2@3@1', 'ending in 2@3@4@1']
+{u'numbers': [u'ending in 1@2@3@1', u'ending in 2@3@4@1']}
+GOES HERE2
+{'is_typable': 'true', 'pipe': u'credit card transactions | Credit Card|Transactions|', 'is_answer': 'false', 'response': u'Speak 1 for ending in 1-2-3-1. Speak 2 for ending in 2-3-4-1. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1000
+
+1000 1
+1000 2
+1000 3
+1000 4
+1000 5
+1000 6
+1000 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+4000
+
+4000 1
+4000 2
+4000 3
+4000 4
+4000 5
+4000 6
+4000 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+Pay credit card
+
+web
+eng
+No Tree
+pay credit card 1
+pay credit card 2
+pay credit card 3
+pay credit card 4
+pay credit card 5
+pay credit card 6
+pay credit card 7
+After pre processing: pay credit card
+[<Intent: Credit Card>, <Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+
+8169392028
+['ending in 1@2@3@1', 'ending in 2@3@4@1']
+{u'numbers': [u'ending in 1@2@3@1', u'ending in 2@3@4@1']}
+GOES HERE2
+{'is_typable': 'true', 'pipe': u'Pay credit card | Credit Card|Due Date|', 'is_answer': 'false', 'response': u'Speak 1 for ending in 1-2-3-1. Speak 2 for ending in 2-3-4-1. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1919
+
+1919 1
+1919 2
+1919 3
+1919 4
+1919 5
+1919 6
+1919 7
+Current stage: post
+Current stage: pre
+
+10000
+8451823773
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'9867760935', u'mob_3': u'', u'mob_1': u'8451823773', u'mpin_bill_limit': u'2000', u'mpin': u'1919', u'nick_4': u'', u'nick_2': u'Soham', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'004001608501', u'mpin_recharge_limit': u'2000'}
+004001608501
+000
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1919
+
+1919 1
+1919 2
+1919 3
+1919 4
+1919 5
+1919 6
+1919 7
+Current stage: post
+Current stage: pre
+
+10000
+8451823773
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'9867760935', u'mob_3': u'', u'mob_1': u'8451823773', u'mpin_bill_limit': u'2000', u'mpin': u'1919', u'nick_4': u'', u'nick_2': u'Soham', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'004001608501', u'mpin_recharge_limit': u'2000'}
+004001608501
+000
+Goes QUERY
+recharge
+
+web
+eng
+No Tree
+recharge 1
+recharge 2
+recharge 3
+recharge 4
+recharge 5
+recharge 6
+recharge 7
+After pre processing: recharge
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'recharge | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1919
+
+1919 1
+1919 2
+1919 3
+1919 4
+1919 5
+1919 6
+1919 7
+Current stage: post
+Current stage: pre
+
+10000
+8451823773
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'9867760935', u'mob_3': u'', u'mob_1': u'8451823773', u'mpin_bill_limit': u'2000', u'mpin': u'1919', u'nick_4': u'', u'nick_2': u'Soham', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'004001608501', u'mpin_recharge_limit': u'2000'}
+004001608501
+000
+Goes QUERY
+Recharge
+
+web
+eng
+No Tree
+recharge 1
+recharge 2
+recharge 3
+recharge 4
+recharge 5
+recharge 6
+recharge 7
+After pre processing: recharge
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1919
+
+1919 1
+1919 2
+1919 3
+1919 4
+1919 5
+1919 6
+1919 7
+Current stage: post
+Current stage: pre
+
+10000
+8451823773
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'9867760935', u'mob_3': u'', u'mob_1': u'8451823773', u'mpin_bill_limit': u'2000', u'mpin': u'1919', u'nick_4': u'', u'nick_2': u'Soham', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'004001608501', u'mpin_recharge_limit': u'2000'}
+004001608501
+000
+Goes QUERY
+Recharge
+
+web
+eng
+No Tree
+recharge 1
+recharge 2
+recharge 3
+recharge 4
+recharge 5
+recharge 6
+recharge 7
+After pre processing: recharge
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+Recharge
+
+web
+eng
+No Tree
+recharge 1
+recharge 2
+recharge 3
+recharge 4
+recharge 5
+recharge 6
+recharge 7
+After pre processing: recharge
+[<Intent: Recharge my mobile>]
+Goes QUERY
+Recharge
+
+web
+eng
+No Tree
+recharge 1
+recharge 2
+recharge 3
+recharge 4
+recharge 5
+recharge 6
+recharge 7
+After pre processing: recharge
+[<Intent: Recharge my mobile>]
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'8451823773'], [u'Soham', u'9867760935']]}
+GOES HERE2
+Speak 1 for Aman having number 8@4@5@1@8@2@3@7@7@3 . Speak 2 for Soham having number 9@8@6@7@7@6@0@9@3@5 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 8-4-5-1-8-2-3-7-7-3 . Speak 2 for Soham having number 9-8-6-7-7-6-0-9-3-5 . '} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'message': u'Velocity Message', u'numbers': u'', u'success': u'false'}
+GOES HERE
+Velocity MessageMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'true', 'response': u'Velocity Message'} Check json
+Goes QUERY
+help
+
+web
+eng
+No Tree
+help 1
+help 2
+help 3
+help 4
+help 5
+help 6
+help 7
+After pre processing: help
+[<Intent: Help>]
+Goood
+Okay
+Current stage: pre
+{'is_typable': 'true', 'upvote_link': u'/queryfeedback/277/9dde2ea2-1ecd-4d62-8455-c78d7e7915f3/like', 'downvote_link': u'/queryfeedback/277/9dde2ea2-1ecd-4d62-8455-c78d7e7915f3/dislike', 'recommended_queries': [], 'is_answer': 'true', 'response': u'Help message'} Check json
+AA
+2345
+2345
+2345
+2345
+2345
+AA
+1234
+AA
+3333
+3333
+3333
+3333
+3333
+Goes QUERY
+Pay bill
+
+web
+eng
+No Tree
+pay bill 1
+pay bill 2
+pay bill 3
+pay bill 4
+pay bill 5
+pay bill 6
+pay bill 7
+After pre processing: pay bill
+[<Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+AAA
+AAA
+AAA
+AAA
+HARSH
+<XML><HEADER>UBPS</HEADER><MessageType>1200</MessageType><ProcCode>960800</ProcCode><TxnAmt>0</TxnAmt><STAN>20180618006</STAN><LocalTxnDtTime>00180207075531</LocalTxnDtTime><CaptureDt>20180207</CaptureDt><FuncCode>200</FuncCode><AcqInstIdenCode>504642</AcqInstIdenCode><Identification1>HARSH</Identification1><Currency>INR</Currency><ConsumerNo /><AcctIdentificationOne>                                      </AcctIdentificationOne><DeliveryChannelCtrlID>IMB</DeliveryChannelCtrlID><AddDataPvt125><UbpsReqTyp>08</UbpsReqTyp><PayeeID /><InstancePymntDate /><ScheduleId></ScheduleId><NoOfPayements>4</NoOfPayements><PaymentType> </PaymentType></AddDataPvt125>
+</XML>
+-5
+[]
+set([])
+[]
+{u'message': u'You have no payees registered', u'numbers': u'', u'success': u'false'}
+GOES HERE
+You have no payees registeredMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Pay bill | Pay bill|', 'is_answer': 'true', 'response': u'You have no payees registered'} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile 2
+
+web
+eng
+No Tree
+recharge my mobile 2 1
+recharge my mobile 2 2
+recharge my mobile 2 3
+recharge my mobile 2 4
+recharge my mobile 2 5
+recharge my mobile 2 6
+recharge my mobile 2 7
+After pre processing: recharge my mobile 2
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'message': u'Sorry, Recharge facility is not enabled on the provided mobile number', u'numbers': u'', u'success': u'false'}
+GOES HERE
+Sorry, Recharge facility is not enabled on the provided mobile numberMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile 2 | Recharge my mobile|', 'is_answer': 'true', 'response': u'Sorry, Recharge facility is not enabled on the provided mobile number'} Check json
+Goes QUERY
+recharge2
+
+web
+eng
+No Tree
+recharge2 1
+recharge2 2
+recharge2 3
+recharge2 4
+recharge2 5
+recharge2 6
+recharge2 7
+After pre processing: recharge2
+[<Intent: Recharge my mobile 2>]
+Goood
+Okay
+Current stage: pre
+{'is_clickable': 'true', 'choices': [u'Yes', u'No'], 'pipe': u'recharge2 | Recharge my mobile 2|2|', 'response_id': 2129, 'is_answer': 'false', 'response': 'Corresponding entry is not present'} Check json
+Goes QUERY
+recharge
+
+web
+eng
+No Tree
+recharge 1
+recharge 2
+recharge 3
+recharge 4
+recharge 5
+recharge 6
+recharge 7
+After pre processing: recharge
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'message': u'Sorry, Recharge facility is not enabled on the provided mobile number', u'numbers': u'', u'success': u'false'}
+GOES HERE
+Sorry, Recharge facility is not enabled on the provided mobile numberMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'recharge | Recharge my mobile|', 'is_answer': 'true', 'response': u'Sorry, Recharge facility is not enabled on the provided mobile number'} Check json
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{* url[http://127.0.0.1:8000/chat/topuplist/,type[GET,data[{dob- 12 ;amt- {/ TopupAmount /} ;policy_number- 12 },output[{transaction_id;value} *}Message
+1 Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{* url[http://127.0.0.1:8000/chat/topuplist/,type[GET,data[{dob- 12 ;amt- 100 ;policy_number- 12 },output[{transaction_id;value} *} Message
+1 Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{* url[http://127.0.0.1:8000/chat/topuplist/,type[GET,data[{dob- 12 ;amt- 100 ;policy_number- 12 },output[{transaction_id;value} *} Message
+1 Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{* url[http://127.0.0.1:8000/chat/topupvalues/,type[GET,data[{dob- 12 ;amt- 100 ;plan- specialrecharge ;policy_number- 12 },output[{transaction_id;value} *} Message
+1 Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR']}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day. Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Pay bill
+
+web
+eng
+No Tree
+pay bill 1
+pay bill 2
+pay bill 3
+pay bill 4
+pay bill 5
+pay bill 6
+pay bill 7
+After pre processing: pay bill
+[<Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+AAA
+AAA
+AAA
+AAA
+HARSH
+<XML><HEADER>UBPS</HEADER><MessageType>1200</MessageType><ProcCode>960800</ProcCode><TxnAmt>0</TxnAmt><STAN>20180618006</STAN><LocalTxnDtTime>00180207075531</LocalTxnDtTime><CaptureDt>20180207</CaptureDt><FuncCode>200</FuncCode><AcqInstIdenCode>504642</AcqInstIdenCode><Identification1>HARSH</Identification1><Currency>INR</Currency><ConsumerNo /><AcctIdentificationOne>                                      </AcctIdentificationOne><DeliveryChannelCtrlID>IMB</DeliveryChannelCtrlID><AddDataPvt125><UbpsReqTyp>08</UbpsReqTyp><PayeeID /><InstancePymntDate /><ScheduleId></ScheduleId><NoOfPayements>4</NoOfPayements><PaymentType> </PaymentType></AddDataPvt125>
+</XML>
+-5
+[]
+set([])
+[]
+{u'message': u'You have no payees registered', u'numbers': u'', u'success': u'false'}
+GOES HERE
+You have no payees registeredMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Pay bill | Pay bill|', 'is_answer': 'true', 'response': u'You have no payees registered'} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'message': u'Sorry, Recharge facility is not enabled on the provided mobile number', u'numbers': u'', u'success': u'false'}
+GOES HERE
+Sorry, Recharge facility is not enabled on the provided mobile numberMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'true', 'response': u'Sorry, Recharge facility is not enabled on the provided mobile number'} Check json
+Goes QUERY
+Pay bill
+
+web
+eng
+No Tree
+pay bill 1
+pay bill 2
+pay bill 3
+pay bill 4
+pay bill 5
+pay bill 6
+pay bill 7
+After pre processing: pay bill
+[<Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+AAA
+AAA
+AAA
+AAA
+HARSH
+<XML><HEADER>UBPS</HEADER><MessageType>1200</MessageType><ProcCode>960800</ProcCode><TxnAmt>0</TxnAmt><STAN>20180618006</STAN><LocalTxnDtTime>00180207075531</LocalTxnDtTime><CaptureDt>20180207</CaptureDt><FuncCode>200</FuncCode><AcqInstIdenCode>504642</AcqInstIdenCode><Identification1>HARSH</Identification1><Currency>INR</Currency><ConsumerNo /><AcctIdentificationOne>                                      </AcctIdentificationOne><DeliveryChannelCtrlID>IMB</DeliveryChannelCtrlID><AddDataPvt125><UbpsReqTyp>08</UbpsReqTyp><PayeeID /><InstancePymntDate /><ScheduleId></ScheduleId><NoOfPayements>4</NoOfPayements><PaymentType> </PaymentType></AddDataPvt125>
+</XML>
+-5
+[]
+set([])
+[]
+{u'message': u'You have no payees registered', u'numbers': u'', u'success': u'false'}
+GOES HERE
+You have no payees registeredMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Pay bill | Pay bill|', 'is_answer': 'true', 'response': u'You have no payees registered'} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'message': u'Sorry, Recharge facility is not enabled on the provided mobile number', u'numbers': u'', u'success': u'false'}
+GOES HERE
+Sorry, Recharge facility is not enabled on the provided mobile numberMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'true', 'response': u'Sorry, Recharge facility is not enabled on the provided mobile number'} Check json
+Goes QUERY
+Pay bill
+
+web
+eng
+No Tree
+pay bill 1
+pay bill 2
+pay bill 3
+pay bill 4
+pay bill 5
+pay bill 6
+pay bill 7
+After pre processing: pay bill
+[<Intent: Pay bill>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+AAA
+AAA
+AAA
+AAA
+HARSH
+<XML><HEADER>UBPS</HEADER><MessageType>1200</MessageType><ProcCode>960800</ProcCode><TxnAmt>0</TxnAmt><STAN>20180618006</STAN><LocalTxnDtTime>00180207075531</LocalTxnDtTime><CaptureDt>20180207</CaptureDt><FuncCode>200</FuncCode><AcqInstIdenCode>504642</AcqInstIdenCode><Identification1>HARSH</Identification1><Currency>INR</Currency><ConsumerNo /><AcctIdentificationOne>                                      </AcctIdentificationOne><DeliveryChannelCtrlID>IMB</DeliveryChannelCtrlID><AddDataPvt125><UbpsReqTyp>08</UbpsReqTyp><PayeeID /><InstancePymntDate /><ScheduleId></ScheduleId><NoOfPayements>4</NoOfPayements><PaymentType> </PaymentType></AddDataPvt125>
+</XML>
+-5
+[]
+set([])
+[]
+{u'message': u'You have no payees registered', u'numbers': u'', u'success': u'false'}
+GOES HERE
+You have no payees registeredMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Pay bill | Pay bill|', 'is_answer': 'true', 'response': u'You have no payees registered'} Check json
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR']}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day. Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR. Message
+showmessage Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+{'pipe': u'Show me top up plans | Show me top up plans|', 'choices': [], 'is_typable': 'true', 'response_id': 2147, 'is_answer': 'false', 'response': u'Please enter your amount?'} Check json
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR']}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day. Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'message': u'Sorry, Recharge facility is not enabled on the provided mobile number', u'numbers': u'', u'success': u'false'}
+GOES HERE
+Sorry, Recharge facility is not enabled on the provided mobile numberMessage
+quittree Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'true', 'response': u'Sorry, Recharge facility is not enabled on the provided mobile number'} Check json
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+Pay bill
+
+pay bill 1
+pay bill 2
+pay bill 3
+pay bill 4
+pay bill 5
+pay bill 6
+pay bill 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+AAA
+AAA
+AAA
+AAA
+HARSH
+<XML><HEADER>UBPS</HEADER><MessageType>1200</MessageType><ProcCode>960800</ProcCode><TxnAmt>0</TxnAmt><STAN>20180618006</STAN><LocalTxnDtTime>00180207075531</LocalTxnDtTime><CaptureDt>20180207</CaptureDt><FuncCode>200</FuncCode><AcqInstIdenCode>504642</AcqInstIdenCode><Identification1>HARSH</Identification1><Currency>INR</Currency><ConsumerNo /><AcctIdentificationOne>                                      </AcctIdentificationOne><DeliveryChannelCtrlID>IMB</DeliveryChannelCtrlID><AddDataPvt125><UbpsReqTyp>08</UbpsReqTyp><PayeeID /><InstancePymntDate /><ScheduleId></ScheduleId><NoOfPayements>4</NoOfPayements><PaymentType> </PaymentType></AddDataPvt125>
+</XML>
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+-5
+Goood
+[]
+set([])
+[]
+{u'message': u'You have no payees registered', u'numbers': u'', u'success': u'false'}
+GOES HERE
+You have no payees registeredMessage
+quittree Choice
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{* url[http://127.0.0.1:8000/chat/topupvalues/,type[GET,data[{dob- 12 ;amt- 100 ;plan- 9@0@3@3@9@8@8@8@7@8 ;policy_number- 12 },output[{transaction_id;value} *} Message
+1 Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR']}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day. Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day. Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'179', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'199', u'28 Days', u'', u''], [u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'249', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'399', u'70 Days', u'', u''], [u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR', u'1199', u'10 Days', u'', u'']]}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day having amount 179 and a validty of 28 Days . Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having amount 199 and a validty of 28 Days . Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having amount 249 and a validty of 28 Days . Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having amount 399 and a validty of 70 Days . Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR having amount 1199 and a validty of 10 Days . Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'179', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'199', u'28 Days', u'', u''], [u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'249', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'399', u'70 Days', u'', u''], [u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR', u'1199', u'10 Days', u'', u'']]}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day having denomination 179 and a validty of 28 Days . Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 199 and a validty of 28 Days . Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 249 and a validty of 28 Days . Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 399 and a validty of 70 Days . Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR having denomination 1199 and a validty of 10 Days . Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Less than MPIN
+
+less than mpin 1
+less than mpin 2
+less than mpin 3
+less than mpin 4
+less than mpin 5
+less than mpin 6
+less than mpin 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+1234
+
+1234 1
+1234 2
+1234 3
+1234 4
+1234 5
+1234 6
+1234 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+2345
+
+2345 1
+2345 2
+2345 3
+2345 4
+2345 5
+2345 6
+2345 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+123
+
+123 1
+123 2
+123 3
+123 4
+123 5
+123 6
+123 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'179', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'199', u'28 Days', u'', u''], [u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'249', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'399', u'70 Days', u'', u''], [u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR', u'1199', u'10 Days', u'', u'']]}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day having denomination 179 and a validty of 28 Days . Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 199 and a validty of 28 Days . Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 249 and a validty of 28 Days . Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 399 and a validty of 70 Days . Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR having denomination 1199 and a validty of 10 Days . Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Less than MPIN
+
+less than mpin 1
+less than mpin 2
+less than mpin 3
+less than mpin 4
+less than mpin 5
+less than mpin 6
+less than mpin 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+2345
+
+2345 1
+2345 2
+2345 3
+2345 4
+2345 5
+2345 6
+2345 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+123
+
+123 1
+123 2
+123 3
+123 4
+123 5
+123 6
+123 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'179', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'199', u'28 Days', u'', u''], [u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'249', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'399', u'70 Days', u'', u''], [u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR', u'1199', u'10 Days', u'', u'']]}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day having denomination 179 and a validty of 28 Days . Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 199 and a validty of 28 Days . Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 249 and a validty of 28 Days . Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 399 and a validty of 70 Days . Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR having denomination 1199 and a validty of 10 Days . Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+123
+
+123 1
+123 2
+123 3
+123 4
+123 5
+123 6
+123 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'179', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'199', u'28 Days', u'', u''], [u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'249', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'399', u'70 Days', u'', u''], [u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR', u'1199', u'10 Days', u'', u'']]}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day having denomination 179 and a validty of 28 Days . Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 199 and a validty of 28 Days . Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 249 and a validty of 28 Days . Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 399 and a validty of 70 Days . Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR having denomination 1199 and a validty of 10 Days . Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Less than MPIN
+
+less than mpin 1
+less than mpin 2
+less than mpin 3
+less than mpin 4
+less than mpin 5
+less than mpin 6
+less than mpin 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+2345
+
+2345 1
+2345 2
+2345 3
+2345 4
+2345 5
+2345 6
+2345 7
+Current stage: post
+Current stage: pre
+
+17900
+9033988878
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'8179892021', u'mob_3': u'', u'mob_1': u'9033988878', u'mpin_bill_limit': u'2000', u'mpin': u'2345', u'nick_4': u'', u'nick_2': u'Harsh', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'12800003412', u'mpin_recharge_limit': u'2000'}
+12800003412
+000
+Goes QUERY
+Show me top up plans
+
+web
+eng
+No Tree
+show me top up plans 1
+show me top up plans 2
+show me top up plans 3
+show me top up plans 4
+show me top up plans 5
+show me top up plan 6
+show me top up plan 7
+After pre processing: show me top up plan
+[<Intent: Show me top up plans>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Show me top up plans | Show me top up plans|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'specialrecharge', u'fourgdata', u'topup']}
+GOES HERE2
+Speak 1 for specialrecharge. Speak 2 for fourgdata. Speak 3 for topup. Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day', u'179', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'199', u'28 Days', u'', u''], [u'2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'249', u'28 Days', u'', u''], [u'1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day', u'399', u'70 Days', u'', u''], [u'Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR', u'1199', u'10 Days', u'', u'']]}
+GOES HERE2
+Speak 1 for 1GB Data  Unlimited Calls (Local+STD+ National Roaming) and 100 Local+STD SMS/day having denomination 179 and a validty of 28 Days . Speak 2 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 199 and a validty of 28 Days . Speak 3 for 2GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 249 and a validty of 28 Days . Speak 4 for 1.4GB data/day  Unlimited Calls (Local+STD+National Roaming) and 100 Local+STD SMS/day having denomination 399 and a validty of 70 Days . Speak 5 for Unlimited incoming calls + 3GB data + 100 SMS/day + 250 mins Local calls to India. For covered countries/tariff-www.airtel.in/IR having denomination 1199 and a validty of 10 Days . Message
+showmessage Choice
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+2345
+
+2345 1
+2345 2
+2345 3
+2345 4
+2345 5
+2345 6
+2345 7
+Current stage: post
+Current stage: pre
+
+17900
+9033988878
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'8179892021', u'mob_3': u'', u'mob_1': u'9033988878', u'mpin_bill_limit': u'2000', u'mpin': u'2345', u'nick_4': u'', u'nick_2': u'Harsh', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'12800003412', u'mpin_recharge_limit': u'2000'}
+12800003412
+000
+Goes QUERY
+What's my account balance?
+
+web
+eng
+No Tree
+what's my account balance? 1
+what's my account balance? 2
+whats my account balance 3
+whats my account balance 4
+whats my account balance 5
+whats my account balance 6
+whats my account balance 7
+After pre processing: whats my account balance
+[<Intent: account balance>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [u'ending in 3@4@1@2', u'ending in 4@5@1@2']}
+GOES HERE2
+Speak 1 for ending in 3@4@1@2. Speak 2 for ending in 4@5@1@2. Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u"What's my account balance? | account balance|", 'is_answer': 'false', 'response': u'Speak 1 for ending in 3-4-1-2. Speak 2 for ending in 4-5-1-2. '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Recharge my mobile
+
+web
+eng
+No Tree
+recharge my mobile 1
+recharge my mobile 2
+recharge my mobile 3
+recharge my mobile 4
+recharge my mobile 5
+recharge my mobile 6
+recharge my mobile 7
+After pre processing: recharge my mobile
+[<Intent: Recharge my mobile>]
+Goood
+Okay
+Current stage: pre
+Super special
+WOHOO
+{u'numbers': [[u'Aman', u'9033988878'], [u'Harsh', u'8179892021']]}
+GOES HERE2
+Speak 1 for Aman having number 9@0@3@3@9@8@8@8@7@8 . Speak 2 for Harsh having number 8@1@7@9@8@9@2@0@2@1 . Message
+showmessage Choice
+{'is_typable': 'true', 'pipe': u'Recharge my mobile | Recharge my mobile|', 'is_answer': 'false', 'response': u'Speak 1 for Aman having number 9-0-3-3-9-8-8-8-7-8 . Speak 2 for Harsh having number 8-1-7-9-8-9-2-0-2-1 . '} Check json
+Goes QUERY
+1
+
+1 1
+1 2
+1 3
+1 4
+1 5
+1 6
+1 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+100
+
+100 1
+100 2
+100 3
+100 4
+100 5
+100 6
+100 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+Yes
+
+yes 1
+yes 2
+yes 3
+yes 4
+yes 5
+yes 6
+yes 7
+Current stage: post
+Current stage: pre
+Goes QUERY
+2345
+
+2345 1
+2345 2
+2345 3
+2345 4
+2345 5
+2345 6
+2345 7
+Current stage: post
+Current stage: pre
+
+10000
+9033988878
+{u'bill_checked': u'false', u'mob_4': u'', u'mob_2': u'8179892021', u'mob_3': u'', u'mob_1': u'9033988878', u'mpin_bill_limit': u'2000', u'mpin': u'2345', u'nick_4': u'', u'nick_2': u'Harsh', u'nick_3': u'', u'recharge_checked': u'true', u'nick_1': u'Aman', u'default_account': u'12800003412', u'mpin_recharge_limit': u'2000'}
+12800003412
+000

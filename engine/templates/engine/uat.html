@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<script src="{% static 'engine/js/jquery.js' %}"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="{% static 'engine/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="{% static 'engine/css/materialize.min.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+<link href="{% static 'engine/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+ <nav class="blue darken-3" role="navigation">
+   <div class="nav-wrapper container"><a id="logo-container" href="/chat/chatbot_test/" class="brand-logo">AllinCall</a>
+     <ul class="right hide-on-med-and-down">
+       <li><a href="/chat/chatbot_test/">Back</a></li>
+     </ul>
+   </div>
+ </nav>
+
+ <div class="container">
+   <h5 id="bb">The failed test results are show in the table below: </h5>
+   <br>
+<div class="row">
+ <div class="col s5"></div>
+<div class="col s7">
+     <div class="preloader-wrapper big active center" id="loading-screen">
+    <div class="spinner-layer spinner-blue-only">
+      <div class="circle-clipper left">
+        <div class="circle"></div>
+      </div><div class="gap-patch">
+        <div class="circle"></div>
+      </div><div class="circle-clipper right">
+        <div class="circle"></div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+   <table class="striped centered" id="intent-table" style="display:none;">
+     <thead id="intenthead">
+       <tr>
+         <th>Sr No</th>
+         <th>Sentence</th>
+         <th>Actual Question</th>
+         <th>Recognized Question</th>
+       </tr>
+     </thead>
+
+     <tbody id="intentbody">
+     </tbody>
+   </table>
+   <br>
+   <br>
+   <h5 id="aa">
+   All the questions except those in the above table have <span class="green-text">passed</span> succesfully.
+   <br>
+   <br>
+   All the failed questions in the table above will be reported to the developer and will be corrected automatically.
+   </h5>
+   <script src="{% static 'engine/js/uat.js' %}"></script>
+   <script src="{% static 'engine/js/materialize.js' %}"></script>
+
+ </div>
+
+</body>
+</html>
